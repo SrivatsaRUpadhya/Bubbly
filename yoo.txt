@@ -1,2 +1,0 @@
-this is a text file to test if the push works on github
-okay so in this commit I am trying to commit directly to the original repo from vs code
