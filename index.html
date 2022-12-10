@@ -20,8 +20,10 @@
             </div>
         </nav>
         <div class="search-container">
-            <input type="text" name="search-box" id="search-box">
-            <button name="search-btn" id = "search-btn">Search</button>
+            <form action="/submit" method="post">
+                <input type="text" name="search_box" id="search_box">
+                <button name="submit" id = "sumbit">Search</button>
+            </form>
         </div>
     </div>
     <div class="container">
@@ -36,8 +38,11 @@
         </div>
         <div class="main-container">
             <!--  -->
-            <div class="frames iframe-1">
+            <div id = "amazon-results" class="frames iframe-1">
                 <h2 class="iframe-head">Results form Amazon</h2>
+                <ul id="search-results">
+                    <script src="js/query_display.js"></script>
+                </ul>
                 <!-- <iframe src="https://www.amazon.com" class="DAsis"></iframe> -->
             </div>
 
