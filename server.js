@@ -28,7 +28,7 @@ app.get('/', (req,res)=>{
     fs.readFile('index.html', 'utf-8', (err, data)=>{
         if (err) {
             res.writeHead(404);
-            res.write("Something went wrong!")
+            res.write("<h1>Something went wrong!</h1>")
             console.log(err);
         }
         else{
