@@ -12,11 +12,12 @@
     "dependencies": {
         "amazon-buddy": "^2.2.45",
         "async": "^3.2.0",
+        "axios": "^1.2.1",
         "bluebird": "^3.7.2",
         "body-parser": "^1.20.1",
         "cheerio": "^1.0.0-rc.3",
         "express": "^4.18.2",
-        "json2csv": "^4.5.3",
+        "json2csv": "^4.5.4",
         "moment": "^2.27.0",
         "nodemon": "^2.0.20",
         "ora": "^4.0.2",

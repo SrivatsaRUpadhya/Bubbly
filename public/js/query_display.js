@@ -15,16 +15,20 @@ function add_data(){
             console.log(responseData);
             const main_list = document.getElementById("search-results");
             responseData['result'].forEach(element => {
+
             var prd_li = main_list.appendChild(document.createElement('li'));
-            var prd_img = main_list.appendChild(document.createElement('img'));
-            prd_img.src = element['thumbnail'];
+            console.log(prd_li);
+
             var prd_price = main_list.appendChild(document.createElement('h3'));
-            prd_price.innerText = element['price']['current_price'];
+            prd_price.innerText = element['current_price'];
+            console.log(prd_price);
+
             var prd_url = prd_li.appendChild(document.createElement('a'));
-            prd_url.href = element['url'];
-            prd_url.textContent = element['url'];
+            prd_url.href = element['query_url'];
+            prd_url.textContent = element['query_url'];
             });
             return responseData;
+
         })
         .catch(function(err) {
         console.log(err);

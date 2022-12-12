@@ -6,6 +6,10 @@ const bodyParser = require("body-parser");
 const amazonScraper = require("amazon-buddy");
 const app = express();
 const port = 8000;
+const cheerio = require('cheerio');
+const axios = require('axios');
+
+const url1 = 'https://flipkart.dvishal485.workers.dev/search/ram';
 
 //This options variable stores the options/config for serving static files
 const options = {
@@ -19,6 +23,7 @@ const options = {
     // res.set('x-timestamp', Date.now())
     // }
 }
+
 app.use(bodyParser.urlencoded({extended: false}));
 //The code below is executed when there is a request for the home page
 app.get('/', (req,res)=>{
@@ -37,32 +42,54 @@ app.get('/', (req,res)=>{
     })
 })
 
-app.post('/submit', (req, res)=>{
-    var query = req.body.search_box;
+app.post('/submit', (req, res)=>
+{
+    let query = req.body.search_box;
     console.log(query);
-    (async () => {
-        try {
-            // Collect 50 products from a keyword 'xbox one'
-            // Default country is US
-            const products = await amazonScraper.products({ keyword: query, number: 10, country: "IN" });
-            fs.writeFileSync("public/result.json", JSON.stringify(products));
+    (async () => 
+    {
+        try 
+        {
+            var request = require('request');
+            request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
+            {
+                if (!error && response.statusCode == 200) 
+                {
+                    //var importedJSON = JSON.parse(body);
+                    //console.log(importedJSON);
+                    //fs.writeFileSync("public/result.json", JSON.stringify(importedJSON));
+                    //console.log(response);
+                    fs.writeFileSync("public/result.json", body);
+                }
+                else
+                {
+                    console.log("Error during Flipkart api request :", error);
+                }
+            })
+            
             app.use(express.static('public', options))
-            fs.readFile('index.html', 'utf-8', (err, data)=>{
+            fs.readFile('index.html', 'utf-8', (err, data)=>
+            {
                 if (err) {
                     res.writeHead(404);
-                    res.write("Something went wrong!")
+                    res.write("Something went wrong!");
                     console.log(err);
                 }
-                else{
+                else
+                {
                     res.send(data)
                 }
             })
-        } catch (error) {
+        }
+        catch (error) 
+        {
             console.log(error);
         }
     })();
     console.log("Gathering Data");
 })
+
+
 //Set the port to listen to
 app.listen(port, err=>{
     if (err) {
