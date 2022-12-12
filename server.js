@@ -8,6 +8,7 @@ const app = express();
 const port = 8000;
 const cheerio = require('cheerio');
 const axios = require('axios');
+const request = require('request');
 
 const url1 = 'https://flipkart.dvishal485.workers.dev/search/ram';
 
@@ -22,25 +23,25 @@ const options = {
     // setHeaders (res, path, stat) {
     // res.set('x-timestamp', Date.now())
     // }
-}
+};
 
 app.use(bodyParser.urlencoded({extended: false}));
 //The code below is executed when there is a request for the home page
 app.get('/', (req,res)=>{
     const init_data = {};
     fs.writeFileSync("public/result.json", JSON.stringify(init_data), 'utf8');
-    app.use(express.static('public', options))
+    app.use(express.static('public', options));
     fs.readFile('index.html', 'utf-8', (err, data)=>{
         if (err) {
             res.writeHead(404);
-            res.write("<h1>Something went wrong!</h1>")
+            res.write("<h1>Something went wrong!</h1>");
             console.log(err);
         }
         else{
-            res.send(data)
+            res.send(data);
         }
-    })
-})
+    });
+});
 
 app.post('/submit', (req, res)=>
 {
@@ -50,36 +51,38 @@ app.post('/submit', (req, res)=>
     {
         try 
         {
-            var request = require('request');
-            request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
-            {
-                if (!error && response.statusCode == 200) 
+                request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
                 {
-                    //var importedJSON = JSON.parse(body);
-                    //console.log(importedJSON);
-                    //fs.writeFileSync("public/result.json", JSON.stringify(importedJSON));
-                    //console.log(response);
-                    fs.writeFileSync("public/result.json", body);
-                }
-                else
-                {
-                    console.log("Error during Flipkart api request :", error);
-                }
-            })
-            
-            app.use(express.static('public', options))
-            fs.readFile('index.html', 'utf-8', (err, data)=>
-            {
-                if (err) {
-                    res.writeHead(404);
-                    res.write("Something went wrong!");
-                    console.log(err);
-                }
-                else
-                {
-                    res.send(data)
-                }
-            })
+                    if (!error && response.statusCode == 200) 
+                    {
+                        //var importedJSON = body;
+                        //console.log(importedJSON);
+                        //fs.writeFileSync("public/result.json", JSON.stringify(importedJSON));
+                        //console.log(response);
+                        fs.writeFileSync("public/result.json", body);
+                        console.log("JSON successfully receieved and wrote the data to the file.");
+                        
+                        app.use(express.static('public', options));
+                        fs.readFile('index.html', 'utf-8', (err, data)=>
+                        {
+                            //fs.writeFileSync("public/result.json", importedJSON);
+                            if (err) {
+                                res.writeHead(404);
+                                res.write("Something went wrong!");
+                                console.log(err);
+                            }
+                            else
+                            {
+                                res.send(data);
+                                console.log("Data sent to the website");
+                            }
+                        });
+                    }
+                    else
+                    {
+                        console.log("Error during Flipkart api request :", error);
+                    }
+                });  
         }
         catch (error) 
         {
@@ -87,7 +90,7 @@ app.post('/submit', (req, res)=>
         }
     })();
     console.log("Gathering Data");
-})
+});
 
 
 //Set the port to listen to

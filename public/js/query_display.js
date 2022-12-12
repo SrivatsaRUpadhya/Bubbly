@@ -23,9 +23,12 @@ function add_data(){
             prd_price.innerText = element['current_price'];
             console.log(prd_price);
 
+            var prd_img = main_list.appendChild(document.createElement('img'));
+            prd_img.src = element['thumbnail'];
+
             var prd_url = prd_li.appendChild(document.createElement('a'));
             prd_url.href = element['query_url'];
-            prd_url.textContent = element['query_url'];
+            prd_url.textContent = element['name'];
             });
             return responseData;
 

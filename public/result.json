@@ -1,367 +1,367 @@
 {
-    "total_result": 40,
-    "query": "",
-    "fetch_from": "https://www.flipkart.com/search?marketplace=FLIPKART&q=",
-    "result": [
-        {
-            "name": "GARNIER Bright Complete Vitamin C Booster Serum Bright ...",
-            "link": "https://www.flipkart.com/garnier-bright-complete-vitamin-c-booster-serum-skin-light-texture-face/p/itm2c40d93a95b49",
-            "current_price": 410,
-            "original_price": 549,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/garnier-bright-complete-vitamin-c-booster-serum-skin-light-texture-face/p/itm2c40d93a95b49"
-        },
-        {
-            "name": "Vaseline Intensive Care Cocoa Glow Body Lotion",
-            "link": "https://www.flipkart.com/vaseline-intensive-care-cocoa-glow-body-lotion/p/itmembc4qmgvbftv",
-            "current_price": 267,
-            "original_price": 435,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kvzkosw0/moisturizer-cream/g/w/c/-original-imag8rhsmj6taugd.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/vaseline-intensive-care-cocoa-glow-body-lotion/p/itmembc4qmgvbftv"
-        },
-        {
-            "name": "Airtel Payments Bank Thanks51 Cashback",
-            "link": "https://www.flipkart.com/airtel-payments-bank-thanks51-cashback/p/itmc83892bf71d4e",
-            "current_price": 51,
-            "original_price": 51,
-            "discounted": false,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/digital-voucher-code/w/o/1/-original-imaggb6yuewzcvq6.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/airtel-payments-bank-thanks51-cashback/p/itmc83892bf71d4e"
-        },
-        {
-            "name": "Donation to Flipkart Foundation",
-            "link": "https://www.flipkart.com/donation-flipkart-foundation/p/itmdeb9d6f66fa4c",
-            "current_price": 10,
-            "original_price": 10,
-            "discounted": false,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/l1b1oy80/digital-combo/c/h/a/12-yes-ff1-donation-original-imagcwmxedj734np.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/donation-flipkart-foundation/p/itmdeb9d6f66fa4c"
-        },
-        {
-            "name": "SSC GD BOOKS COMBO Maths, Samanya Hindi, Reasoning &amp; Sa...",
-            "link": "https://www.flipkart.com/ssc-gd-books-combo-maths-samanya-hindi-reasoning-adhyan-2022/p/itm5253e49d36371",
-            "current_price": 478,
-            "original_price": 746,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/ssc-gd-books-combo-maths-samanya-hindi-reasoning-adhyan-2022/p/itm5253e49d36371"
-        },
-        {
-            "name": "It Ends With Us And It Start With Us Best 2 Books Combo...",
-            "link": "https://www.flipkart.com/ends-start-best-2-books-combo-paperback-collen-hoover/p/itme805c4d12b306",
-            "current_price": 295,
-            "original_price": 1098,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/ends-start-best-2-books-combo-paperback-collen-hoover/p/itme805c4d12b306"
-        },
-        {
-            "name": "Cuddles - Super Pants Pant Style Diaper - M",
-            "link": "https://www.flipkart.com/cuddles-super-pants-pant-style-diaper-m/p/itm995ae5bd70d77",
-            "current_price": 579,
-            "original_price": 1099,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/diaper/2/f/p/-original-imagjpyepvez9qhn.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/cuddles-super-pants-pant-style-diaper-m/p/itm995ae5bd70d77"
-        },
-        {
-            "name": "MamaEarth &quot;Anti Hair Fall Spa Range with Onion Hair Oil...",
-            "link": "https://www.flipkart.com/mamaearth-anti-hair-fall-spa-range-onion-oil-shampoo-conditioner-control/p/itme698a44eec046",
-            "current_price": 823,
-            "original_price": 1097,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/mamaearth-anti-hair-fall-spa-range-onion-oil-shampoo-conditioner-control/p/itme698a44eec046"
-        },
-        {
-            "name": "Educart CBSE Class 10 Sample Papers 2022-23 Bundle - Sc...",
-            "link": "https://www.flipkart.com/educart-cbse-class-10-sample-papers-2022-23-bundle-science-sst-english-mathematics-standard-4-books-2023/p/itm9f8c0758505c8",
-            "current_price": 799,
-            "original_price": 1196,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/educart-cbse-class-10-sample-papers-2022-23-bundle-science-sst-english-mathematics-standard-4-books-2023/p/itm9f8c0758505c8"
-        },
-        {
-            "name": "Navratna Ayurvedic Cool Oil|With 9 Ayurvedic Herbs |Rel...",
-            "link": "https://www.flipkart.com/navratna-ayurvedic-cool-oil-with-9-herbs-relieves-headache-fatigue-hair-oil/p/itm5400cc79a59bc",
-            "current_price": 143,
-            "original_price": 205,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/navratna-ayurvedic-cool-oil-with-9-herbs-relieves-headache-fatigue-hair-oil/p/itm5400cc79a59bc"
-        },
-        {
-            "name": "NIVEA Body Milk Nourishing Body Lotion 400ml &amp; 120 ml -...",
-            "link": "https://www.flipkart.com/nivea-body-milk-nourishing-lotion-400ml-120-ml-pack-2/p/itmf6y86zahhzntz",
-            "current_price": 288,
-            "original_price": 524,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/nivea-body-milk-nourishing-lotion-400ml-120-ml-pack-2/p/itmf6y86zahhzntz"
-        },
-        {
-            "name": "Vaseline Non Greasy Intensive Care Deep Moisture Body L...",
-            "link": "https://www.flipkart.com/vaseline-non-greasy-intensive-care-deep-moisture-body-lotion/p/itmab5c6a1414df1",
-            "current_price": 284,
-            "original_price": 335,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/vaseline-non-greasy-intensive-care-deep-moisture-body-lotion/p/itmab5c6a1414df1"
-        },
-        {
-            "name": "Mahakosh Refined Soyabean Oil Pouch",
-            "link": "https://www.flipkart.com/mahakosh-refined-soyabean-oil-pouch/p/itmcea12cbc570fe",
-            "current_price": 112,
-            "original_price": 160,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kybvo280/edible-oil/s/k/j/-original-imagahyvptejcgum.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/mahakosh-refined-soyabean-oil-pouch/p/itmcea12cbc570fe"
-        },
-        {
-            "name": "BOROPLUS Doodh Kesar Body Lotion|24H moisturisation|100...",
-            "link": "https://www.flipkart.com/boroplus-doodh-kesar-body-lotion-24h-moisturisation-100-ayurvedic-glowing-skin/p/itma526dc12b1698",
-            "current_price": 144,
-            "original_price": 320,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/boroplus-doodh-kesar-body-lotion-24h-moisturisation-100-ayurvedic-glowing-skin/p/itma526dc12b1698"
-        },
-        {
-            "name": "Dabur Chyawanprash",
-            "link": "https://www.flipkart.com/dabur-chyawanprash/p/itm4e7fb9d72d4d6",
-            "current_price": 226,
-            "original_price": 249,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kpydrbk0/ayurvedic/q/l/t/chyawanprash-dabur-original-imag42hgkggh3sz4.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/dabur-chyawanprash/p/itm4e7fb9d72d4d6"
-        },
-        {
-            "name": "Dabur Almond Hair Oil with Soya Protein and Vitamin E H...",
-            "link": "https://www.flipkart.com/dabur-almond-hair-oil-soya-protein-vitamin-e/p/itm5a5af5fc6ff9c",
-            "current_price": 168,
-            "original_price": 295,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/dabur-almond-hair-oil-soya-protein-vitamin-e/p/itm5a5af5fc6ff9c"
-        },
-        {
-            "name": "sanyasi ayurveda Sanyasi Sehat Tablet - Ayurvedic Medic...",
-            "link": "https://www.flipkart.com/sanyasi-ayurveda-sehat-tablet-ayurvedic-medicine-weight-gain/p/itm9d985b8cb661e",
-            "current_price": 699,
-            "original_price": 699,
-            "discounted": false,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/sanyasi-ayurveda-sehat-tablet-ayurvedic-medicine-weight-gain/p/itm9d985b8cb661e"
-        },
-        {
-            "name": "PHILIPS BT1232/15 Trimmer 30 mins  Runtime 3 Length Set...",
-            "link": "https://www.flipkart.com/philips-bt1232-15-trimmer-30-mins-runtime-3-length-settings/p/itm52bc527efdd34",
-            "current_price": 749,
-            "original_price": 995,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/philips-bt1232-15-trimmer-30-mins-runtime-3-length-settings/p/itm52bc527efdd34"
-        },
-        {
-            "name": "IQRA TRENDZ Tempered Glass Guard for - DZO9 BLUETOOTH S...",
-            "link": "https://www.flipkart.com/iqra-trendz-tempered-glass-guard-dzo9-bluetooth-smart-wrist-watch/p/itm2fbcacfbb7031",
-            "current_price": 199,
-            "original_price": 499,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/iqra-trendz-tempered-glass-guard-dzo9-bluetooth-smart-wrist-watch/p/itm2fbcacfbb7031"
-        },
-        {
-            "name": "L'Oréal Paris Revitalift Hyaluronic Acid Face Serum 1.5...",
-            "link": "https://www.flipkart.com/l-oral-paris-revitalift-hyaluronic-acid-face-serum-1-5-hydrating-radiant-glowing-skin-fragrance-paraben-free/p/itmce2d4006bc6e3",
-            "current_price": 449,
-            "original_price": 499,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/l-oral-paris-revitalift-hyaluronic-acid-face-serum-1-5-hydrating-radiant-glowing-skin-fragrance-paraben-free/p/itmce2d4006bc6e3"
-        },
-        {
-            "name": "Cuddles - Super Pants Pant Style Diaper - L",
-            "link": "https://www.flipkart.com/cuddles-super-pants-pant-style-diaper-l/p/itm8fa4fd73abbe1",
-            "current_price": 579,
-            "original_price": 1099,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/diaper/g/z/g/-original-imagjpye83jpfcr2.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/cuddles-super-pants-pant-style-diaper-l/p/itm8fa4fd73abbe1"
-        },
-        {
-            "name": "Nea Rubber Hot Water Bag / Warm Bag for Pain Relief &amp; M...",
-            "link": "https://www.flipkart.com/nea-rubber-hot-water-bag-warm-pain-relief-massager-non-electrical-2-l/p/itmc5fc076ed91fb",
-            "current_price": 115,
-            "original_price": 600,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/nea-rubber-hot-water-bag-warm-pain-relief-massager-non-electrical-2-l/p/itmc5fc076ed91fb"
-        },
-        {
-            "name": "HORLICKS Classic Malt",
-            "link": "https://www.flipkart.com/horlicks-classic-malt/p/itm62a45129654b4",
-            "current_price": 255,
-            "original_price": 255,
-            "discounted": false,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kgwld3k0/milk-drink-mix/f/u/a/500-classic-malt-plastic-bottle-horlicks-original-imafxf7xyubggpdn.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/horlicks-classic-malt/p/itm62a45129654b4"
-        },
-        {
-            "name": "GARNIER Acno Fight Pimple Clearing Facewash,150g + Acno...",
-            "link": "https://www.flipkart.com/garnier-acno-fight-pimple-clearing-facewash-150g-antipimple-moisturiser-45g-face-wash/p/itm7c22215189021",
-            "current_price": 337,
-            "original_price": 450,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/garnier-acno-fight-pimple-clearing-facewash-150g-antipimple-moisturiser-45g-face-wash/p/itm7c22215189021"
-        },
-        {
-            "name": "DENVER Hamilton Deodorant Deodorant Spray  -  For Men",
-            "link": "https://www.flipkart.com/denver-hamilton-deodorant-spray-men/p/itmfgzm6ytzpat6r",
-            "current_price": 295,
-            "original_price": 530,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/jy0frm80/deodorant/g/f/p/400-hamilton-deodorant-body-spray-denver-men-original-imafgb9fsafampwz.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/denver-hamilton-deodorant-spray-men/p/itmfgzm6ytzpat6r"
-        },
-        {
-            "name": "Kesh King Ayurvedic Anti Hairfall|Hair Growth Oil|21 Na...",
-            "link": "https://www.flipkart.com/kesh-king-ayurvedic-anti-hairfall-hair-growth-oil-21-natural-ingredients-hair-oil/p/itm89538660bf938",
-            "current_price": 244,
-            "original_price": 349,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/kesh-king-ayurvedic-anti-hairfall-hair-growth-oil-21-natural-ingredients-hair-oil/p/itm89538660bf938"
-        },
-        {
-            "name": "Rich Dad Poor Dad Hindi",
-            "link": "https://www.flipkart.com/rich-dad-poor-hindi/p/itmfdabfc2776c63",
-            "current_price": 190,
-            "original_price": 599,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/regionalbooks/o/2/0/rich-dad-poor-dad-hindi-robert-t-kiyosaki-original-imagjuefeycejmd5.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/rich-dad-poor-hindi/p/itmfdabfc2776c63"
-        },
-        {
-            "name": "Garnier Men Acno Fight Anti-Pimple Facewash for Acne Pr...",
-            "link": "https://www.flipkart.com/garnier-men-acno-fight-anti-pimple-facewash-acne-prone-skin-150g-face-wash/p/itma99d58b632938",
-            "current_price": 211,
-            "original_price": 325,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/garnier-men-acno-fight-anti-pimple-facewash-acne-prone-skin-150g-face-wash/p/itma99d58b632938"
-        },
-        {
-            "name": "OnePlus Bullets Wireless Z2 with Fast Charge, 30 Hrs Ba...",
-            "link": "https://www.flipkart.com/oneplus-bullets-wireless-z2-fast-charge-30-hrs-battery-life-earphones-mic-bluetooth-headset/p/itm1b9cd98911a2a",
-            "current_price": 1999,
-            "original_price": 2299,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/oneplus-bullets-wireless-z2-fast-charge-30-hrs-battery-life-earphones-mic-bluetooth-headset/p/itm1b9cd98911a2a"
-        },
-        {
-            "name": "Clinic Plus Strong and Thick Shampoo with Milk Protein,...",
-            "link": "https://www.flipkart.com/clinic-plus-strong-thick-shampoo-milk-protein-almond-oil/p/itm68efcce5d8c92",
-            "current_price": 172,
-            "original_price": 230,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/clinic-plus-strong-thick-shampoo-milk-protein-almond-oil/p/itm68efcce5d8c92"
-        },
-        {
-            "name": "POND's Bright Beauty Serum Cream Anti-Spot Fairness SPF...",
-            "link": "https://www.flipkart.com/pond-s-bright-beauty-serum-cream-anti-spot-fairness-spf-15-day/p/itm2b98fea00f440",
-            "current_price": 120,
-            "original_price": 164,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/pond-s-bright-beauty-serum-cream-anti-spot-fairness-spf-15-day/p/itm2b98fea00f440"
-        },
-        {
-            "name": "GARNIER Bright Complete VITAMIN C Facewash, 150g Face W...",
-            "link": "https://www.flipkart.com/garnier-bright-complete-vitamin-c-facewash-150g-face-wash/p/itmc0d2b92ccb4e3",
-            "current_price": 184,
-            "original_price": 279,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/garnier-bright-complete-vitamin-c-facewash-150g-face-wash/p/itmc0d2b92ccb4e3"
-        },
-        {
-            "name": "MamyPoko Extra Absorb - M",
-            "link": "https://www.flipkart.com/mamypoko-extra-absorb-m/p/itm502222f6310b0",
-            "current_price": 929,
-            "original_price": 1499,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/diaper/v/q/k/-original-imaghvhdr2nr3etn.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/mamypoko-extra-absorb-m/p/itm502222f6310b0"
-        },
-        {
-            "name": "LA OTTER Finger Sleeve For Pubg and all Gaming (Suitabl...",
-            "link": "https://www.flipkart.com/la-otter-finger-sleeve-pubg-all-gaming-suitable-smartphones/p/itmaf1d982cac08e",
-            "current_price": 125,
-            "original_price": 550,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/la-otter-finger-sleeve-pubg-all-gaming-suitable-smartphones/p/itmaf1d982cac08e"
-        },
-        {
-            "name": "zxb Impossible Screen Guard for Maxima Max Pro Turbo sm...",
-            "link": "https://www.flipkart.com/zxb-impossible-screen-guard-maxima-max-pro-turbo-smart-watch-43mm/p/itm6970d09b28a4e",
-            "current_price": 179,
-            "original_price": 1299,
-            "discounted": true,
-            "thumbnail": [],
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/zxb-impossible-screen-guard-maxima-max-pro-turbo-smart-watch-43mm/p/itm6970d09b28a4e"
-        },
-        {
-            "name": "SET WET Cool Hold Hair Gel",
-            "link": "https://www.flipkart.com/set-wet-cool-hold-hair-gel/p/itmfbejhsc3fhfme",
-            "current_price": 117,
-            "original_price": 196,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/hair-styling/b/k/3/-original-imagkcecwnvf3uxm.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/set-wet-cool-hold-hair-gel/p/itmfbejhsc3fhfme"
-        },
-        {
-            "name": "MamyPoko Extra Absorb - XL",
-            "link": "https://www.flipkart.com/mamypoko-extra-absorb-xl/p/itma70caafd82c48",
-            "current_price": 1238,
-            "original_price": 1998,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/diaper/h/p/x/-original-imaghvhfbcszck3p.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/mamypoko-extra-absorb-xl/p/itma70caafd82c48"
-        },
-        {
-            "name": "Good Health Safe Ayurvedic Capsules (Pack of 3)",
-            "link": "https://www.flipkart.com/good-health-safe-ayurvedic-capsules-pack-3/p/itm0a7300c6697a0",
-            "current_price": 250,
-            "original_price": 696,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kjg1jm80-0/ayurvedic/3/x/v/capsules-50x3-pack-of-3-good-health-original-imafzys8k8tnkhgv.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/good-health-safe-ayurvedic-capsules-pack-3/p/itm0a7300c6697a0"
-        },
-        {
-            "name": "Coo Coo Baby Pullup Diaper Pants - M",
-            "link": "https://www.flipkart.com/coo-baby-pullup-diaper-pants-m/p/itm29f270fbdf22d",
-            "current_price": 671,
-            "original_price": 1399,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/diaper/y/0/s/m-baby-pullup-diaper-pants-96-coo-coo-original-imaggcgdrnvcpsyh.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/coo-baby-pullup-diaper-pants-m/p/itm29f270fbdf22d"
-        },
-        {
-            "name": "Dabur 100% Natural Cold Pressed Castor Oil Hair Oil",
-            "link": "https://www.flipkart.com/dabur-100-natural-cold-pressed-castor-oil-hair/p/itm277c5e652c676",
-            "current_price": 194,
-            "original_price": 299,
-            "discounted": true,
-            "thumbnail": "https://rukminim1.flixcart.com/image/612/612/l4fxh8w0/hair-oil/p/6/y/-original-imagfc8sdrznba9s.jpeg?q=70",
-            "query_url": "https://flipkart.dvishal485.workers.dev/product/dabur-100-natural-cold-pressed-castor-oil-hair/p/itm277c5e652c676"
-        }
-    ]
+  "total_result": 40,
+  "query": "rubics%20cube",
+  "fetch_from": "https://www.flipkart.com/search?marketplace=FLIPKART&q=rubics%20cube",
+  "result": [
+    {
+      "name": "Cubelelo QiYi Warrior [W] 3x3 Stickerless",
+      "link": "https://www.flipkart.com/cubelelo-qiyi-warrior-w-3x3-stickerless/p/itmf53r7gubhzcyd",
+      "current_price": 269,
+      "original_price": 799,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/l0fm07k0/puzzle/a/q/p/1-qiyi-warrior-w-3x3-stickerless-cubelelo-original-imagc84vsrvvvbr5.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/cubelelo-qiyi-warrior-w-3x3-stickerless/p/itmf53r7gubhzcyd"
+    },
+    {
+      "name": "skytrapper High Speed Stickerless Rubic Cube 3x3x3 for ...",
+      "link": "https://www.flipkart.com/skytrapper-high-speed-stickerless-rubic-cube-3x3x3-kids-magic/p/itmf39310a1ff6a2",
+      "current_price": 249,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/skytrapper-high-speed-stickerless-rubic-cube-3x3x3-kids-magic/p/itmf39310a1ff6a2"
+    },
+    {
+      "name": "CPM Rubic Cube 3x3x3 High speed (Pack of 1)",
+      "link": "https://www.flipkart.com/cpm-rubic-cube-3x3x3-high-speed-pack-1/p/itm76a3b9c7adfdd",
+      "current_price": 140,
+      "original_price": 499,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/ksaoqkw0/puzzle/w/i/r/01-ruby-cube-3x3-high-speed-stickerless-cpm-original-imag5w52tn6vcgny.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/cpm-rubic-cube-3x3x3-high-speed-pack-1/p/itm76a3b9c7adfdd"
+    },
+    {
+      "name": "hmc High Speed Rubic Cube 3x3x3 by SHREE EXIM",
+      "link": "https://www.flipkart.com/hmc-high-speed-rubic-cube-3x3x3-shree-exim/p/itmf5u7qhgv6svvx",
+      "current_price": 140,
+      "original_price": 473,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/l26hdow0/puzzle/u/x/p/1-high-speed-rubic-cube-3x3x3-by-shree-exim-niveeka-original-imagdh3fdjnhqjwq.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/hmc-high-speed-rubic-cube-3x3x3-shree-exim/p/itmf5u7qhgv6svvx"
+    },
+    {
+      "name": "AGAMI Rubic Cube",
+      "link": "https://www.flipkart.com/agami-rubic-cube/p/itmfgvf5kzfdy9zf",
+      "current_price": 297,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/jw3umq80/puzzle/z/y/s/1-rubic-cube-agami-original-imafguywqg3hhub3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/agami-rubic-cube/p/itmfgvf5kzfdy9zf"
+    },
+    {
+      "name": "fluffies 3x3 SpeedCube High Speed Smooth Turning Magic ...",
+      "link": "https://www.flipkart.com/fluffies-3x3-speedcube-high-speed-smooth-turning-magic-cube-puzzle-brainteaser-rubic/p/itm5089009b488a2",
+      "current_price": 194,
+      "original_price": 699,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/fluffies-3x3-speedcube-high-speed-smooth-turning-magic-cube-puzzle-brainteaser-rubic/p/itm5089009b488a2"
+    },
+    {
+      "name": "Cubelelo Drift Maple Leaf Stickerless Magic Cube (Speed...",
+      "link": "https://www.flipkart.com/cubelelo-drift-maple-leaf-stickerless-magic-cube-speedsolving-rubiks-brainstorming-rubix-high-speed-rubic-game-toy/p/itm86ebf19a574cf",
+      "current_price": 382,
+      "original_price": 699,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/cubelelo-drift-maple-leaf-stickerless-magic-cube-speedsolving-rubiks-brainstorming-rubix-high-speed-rubic-game-toy/p/itm86ebf19a574cf"
+    },
+    {
+      "name": "Cubelelo QiYi QiFa Square-1 Stickerless Puzzle toy spee...",
+      "link": "https://www.flipkart.com/cubelelo-qiyi-qifa-square-1-stickerless-puzzle-toy-speed-cube/p/itm4f003b9d6a95e",
+      "current_price": 709,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/cubelelo-qiyi-qifa-square-1-stickerless-puzzle-toy-speed-cube/p/itm4f003b9d6a95e"
+    },
+    {
+      "name": "Philocaly Enterprise cube combo set of 2 rubix cube 3x3...",
+      "link": "https://www.flipkart.com/philocaly-enterprise-cube-combo-set-2-rubix-3x3-rubic-high-speed-stickerless-magic-puzzle-rubick-brainstorming-game-toy-2-pieces/p/itm7c367df8a06e2",
+      "current_price": 232,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/philocaly-enterprise-cube-combo-set-2-rubix-3x3-rubic-high-speed-stickerless-magic-puzzle-rubick-brainstorming-game-toy-2-pieces/p/itm7c367df8a06e2"
+    },
+    {
+      "name": "mtsh High Speed Rubic Cube 3x3x3",
+      "link": "https://www.flipkart.com/mtsh-high-speed-rubic-cube-3x3x3/p/itmf11b2ee4d3eb2",
+      "current_price": 149,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kbgu1e80/puzzle/9/g/5/1-high-speed-3d-puzzle-cube-stickerless-cube-toy-dawnrays-original-imafssz5nhcynzmw.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/mtsh-high-speed-rubic-cube-3x3x3/p/itmf11b2ee4d3eb2"
+    },
+    {
+      "name": "comfyqueen RUBIC CUBE 3X3",
+      "link": "https://www.flipkart.com/comfyqueen-rubic-cube-3x3/p/itmac649c52c790b",
+      "current_price": 249,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/puzzle/k/f/y/1-magnetic-rubic-cube-3x3-golden-diva-original-imagkhzfpqc5uepz.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/comfyqueen-rubic-cube-3x3/p/itmac649c52c790b"
+    },
+    {
+      "name": "MadVin RUBIC CUBE 3X3",
+      "link": "https://www.flipkart.com/madvin-rubic-cube-3x3/p/itm431878a2e4b76",
+      "current_price": 249,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/puzzle/k/f/y/1-magnetic-rubic-cube-3x3-golden-diva-original-imagkhzfpqc5uepz.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/madvin-rubic-cube-3x3/p/itm431878a2e4b76"
+    },
+    {
+      "name": "Cubelelo YJ YuHu v2 Magnetic Megaminx Stickerless Cube ...",
+      "link": "https://www.flipkart.com/cubelelo-yj-yuhu-v2-magnetic-megaminx-stickerless-cube-highspeed-magic-rubic-rubix-speedcube-brain-teaser-toy/p/itm5b5918ca275a0",
+      "current_price": 1319,
+      "original_price": 1499,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/cubelelo-yj-yuhu-v2-magnetic-megaminx-stickerless-cube-highspeed-magic-rubic-rubix-speedcube-brain-teaser-toy/p/itm5b5918ca275a0"
+    },
+    {
+      "name": "Golden Diva Stickerless highspeed RUBIC CUBE 3X3",
+      "link": "https://www.flipkart.com/golden-diva-stickerless-highspeed-rubic-cube-3x3/p/itm71598c4e2a8e9",
+      "current_price": 249,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/xif0q/puzzle/k/f/y/1-magnetic-rubic-cube-3x3-golden-diva-original-imagkhzfpqc5uepz.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/golden-diva-stickerless-highspeed-rubic-cube-3x3/p/itm71598c4e2a8e9"
+    },
+    {
+      "name": "D ETERNAL MoYu Geo Cube 3x3x3 High Speed Stickerless Ru...",
+      "link": "https://www.flipkart.com/d-eternal-moyu-geo-cube-3x3x3-high-speed-stickerless-rubix-rubic-transperent-puzzle-magic/p/itm91cc47b9f1c34",
+      "current_price": 359,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/d-eternal-moyu-geo-cube-3x3x3-high-speed-stickerless-rubix-rubic-transperent-puzzle-magic/p/itm91cc47b9f1c34"
+    },
+    {
+      "name": "Elderwand Rubic cube 3x3x3",
+      "link": "https://www.flipkart.com/elderwand-rubic-cube-3x3x3/p/itm7dd71251df589",
+      "current_price": 192,
+      "original_price": 230,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/l4vnbm80/puzzle/y/l/w/1-rubic-cube-3x3x3-elderwand-original-imagfzgppyesj8hz.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/elderwand-rubic-cube-3x3x3/p/itm7dd71251df589"
+    },
+    {
+      "name": "jYOKRi TOP Selling Enjoy High Speed Magic Cube 3x3x3 Cu...",
+      "link": "https://www.flipkart.com/jyokri-top-selling-enjoy-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm82c27abfe43f4",
+      "current_price": 149,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/jyokri-top-selling-enjoy-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm82c27abfe43f4"
+    },
+    {
+      "name": "jYOKRi Enjoy High Speed Magic Cube 3x3x3 Cube Easy Smoo...",
+      "link": "https://www.flipkart.com/jyokri-enjoy-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm9c558b9de4260",
+      "current_price": 149,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/jyokri-enjoy-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm9c558b9de4260"
+    },
+    {
+      "name": "FITBOT High Speed Rubic Cube 3x3x3 (1 Pieces)",
+      "link": "https://www.flipkart.com/fitbot-high-speed-rubic-cube-3x3x3-1-pieces/p/itm974ec93688d42",
+      "current_price": 199,
+      "original_price": 499,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kwpam4w0/puzzle/i/d/m/1-high-speed-rubic-cube-3x3x3-1-pieces-fitbot-original-imag9bwgvvmprjxj.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/fitbot-high-speed-rubic-cube-3x3x3-1-pieces/p/itm974ec93688d42"
+    },
+    {
+      "name": "jYOKRi Hot Selling Fully Smooth Supper Magic Cube 3x3x3...",
+      "link": "https://www.flipkart.com/jyokri-hot-selling-fully-smooth-supper-magic-cube-3x3x3-easy-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm60efb2fad8425",
+      "current_price": 149,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/jyokri-hot-selling-fully-smooth-supper-magic-cube-3x3x3-easy-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm60efb2fad8425"
+    },
+    {
+      "name": "Kmc kidoz Rubiks Rubix Rubic Cube 5x5 High Speed Magic ...",
+      "link": "https://www.flipkart.com/kmc-kidoz-rubiks-rubix-rubic-cube-5x5-high-speed-magic-puzzle/p/itm4a71cdb5409bb",
+      "current_price": 545,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/kmc-kidoz-rubiks-rubix-rubic-cube-5x5-high-speed-magic-puzzle/p/itm4a71cdb5409bb"
+    },
+    {
+      "name": "D ETERNAL 2x2 4X4 &amp; 5X5 high Speed stickerless Magic Ru...",
+      "link": "https://www.flipkart.com/d-eternal-2x2-4x4-5x5-high-speed-stickerless-magic-rubic-puzzle-cube/p/itma2fa7042c2a93",
+      "current_price": 901,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/d-eternal-2x2-4x4-5x5-high-speed-stickerless-magic-rubic-puzzle-cube/p/itma2fa7042c2a93"
+    },
+    {
+      "name": "jYOKRi High Speed Magic Cube 3x3x3 Cube Easy Smooth Tur...",
+      "link": "https://www.flipkart.com/jyokri-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic/p/itm460fbaa0136b3",
+      "current_price": 149,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/jyokri-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic/p/itm460fbaa0136b3"
+    },
+    {
+      "name": "Boan Boan C cube combo set of 2 rubix cube 3x3 rubic cu...",
+      "link": "https://www.flipkart.com/boan-c-cube-combo-set-2-rubix-3x3-rubic-high-speed-stickerless-magic-puzzle-rubick-brainstorming-game-toy/p/itm2b92137f4231f",
+      "current_price": 299,
+      "original_price": 799,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/boan-c-cube-combo-set-2-rubix-3x3-rubic-high-speed-stickerless-magic-puzzle-rubick-brainstorming-game-toy/p/itm2b92137f4231f"
+    },
+    {
+      "name": "AbyDigital ABY Rubik's Cube 3x3, Sticker less High Spee...",
+      "link": "https://www.flipkart.com/abydigital-aby-rubik-s-cube-3x3-sticker-less-high-speed-cube-puzzle-rubic/p/itmbfd7e891a146a",
+      "current_price": 149,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/abydigital-aby-rubik-s-cube-3x3-sticker-less-high-speed-cube-puzzle-rubic/p/itmbfd7e891a146a"
+    },
+    {
+      "name": "Tector 3x3X3 Speed Cube Stickerless Magic Rubic Cube - ...",
+      "link": "https://www.flipkart.com/tector-3x3x3-speed-cube-stickerless-magic-rubic-multicolor/p/itmd9d0ab993cab2",
+      "current_price": 217,
+      "original_price": 399,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/tector-3x3x3-speed-cube-stickerless-magic-rubic-multicolor/p/itmd9d0ab993cab2"
+    },
+    {
+      "name": "jYOKRi Enjoy High Speed Magic Cube 3x3x3 Cube Easy Smoo...",
+      "link": "https://www.flipkart.com/jyokri-enjoy-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itmbefb9a8bc836a",
+      "current_price": 149,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/jyokri-enjoy-high-speed-magic-cube-3x3x3-easy-smooth-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itmbefb9a8bc836a"
+    },
+    {
+      "name": "mtsh High Speed Rubic Cube 3x3x3 by MTS/H",
+      "link": "https://www.flipkart.com/mtsh-high-speed-rubic-cube-3x3x3-mts-h/p/itmd283c7fc60429",
+      "current_price": 149,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/ktvucnk0/puzzle/z/v/z/1-high-quality-cube-of-3-x-3-hausa07-original-imag74qarju9k7qs.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/mtsh-high-speed-rubic-cube-3x3x3-mts-h/p/itmd283c7fc60429"
+    },
+    {
+      "name": "MOOZICO High Speed Rubic Cube 3x3x3",
+      "link": "https://www.flipkart.com/moozico-high-speed-rubic-cube-3x3x3/p/itm2682239707170",
+      "current_price": 199,
+      "original_price": 499,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/l26hdow0/puzzle/u/x/p/1-high-speed-rubic-cube-3x3x3-by-shree-exim-niveeka-original-imagdh3fdjnhqjwq.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/moozico-high-speed-rubic-cube-3x3x3/p/itm2682239707170"
+    },
+    {
+      "name": "niveeka Rubic Cube 3x3x3 High speed (Pack of 1)",
+      "link": "https://www.flipkart.com/niveeka-rubic-cube-3x3x3-high-speed-pack-1/p/itmc87ec20750676",
+      "current_price": 149,
+      "original_price": 999,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/ksaoqkw0/puzzle/w/i/r/01-ruby-cube-3x3-high-speed-stickerless-cpm-original-imag5w52tn6vcgny.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/niveeka-rubic-cube-3x3x3-high-speed-pack-1/p/itmc87ec20750676"
+    },
+    {
+      "name": "Skytrappper BIS APPROVED Rubic Cube 4x4x4 High Speed St...",
+      "link": "https://www.flipkart.com/skytrappper-bis-approved-rubic-cube-4x4x4-high-speed-stickerless-magic-kids/p/itma452facb714a0",
+      "current_price": 389,
+      "original_price": 957,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/skytrappper-bis-approved-rubic-cube-4x4x4-high-speed-stickerless-magic-kids/p/itma452facb714a0"
+    },
+    {
+      "name": "Magic cube 4X4 Justin's Rock stickerless very smooth ru...",
+      "link": "https://www.flipkart.com/magic-cube-4x4-justin-s-rock-stickerless-very-smooth-rubic/p/itmff32tfrqq6aba",
+      "current_price": 479,
+      "original_price": 824,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/magic-cube-4x4-justin-s-rock-stickerless-very-smooth-rubic/p/itmff32tfrqq6aba"
+    },
+    {
+      "name": "jYOKRi Hot Selling Fully Smooth Magic Cube 3x3x3 Cube E...",
+      "link": "https://www.flipkart.com/jyokri-hot-selling-fully-smooth-magic-cube-3x3x3-easy-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itmf9a62b2b168b7",
+      "current_price": 149,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/jyokri-hot-selling-fully-smooth-magic-cube-3x3x3-easy-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itmf9a62b2b168b7"
+    },
+    {
+      "name": "Tap2kaart High Speed Rubic Cube 3x3x3",
+      "link": "https://www.flipkart.com/tap2kaart-high-speed-rubic-cube-3x3x3/p/itm728fc7d3ec695",
+      "current_price": 189,
+      "original_price": 499,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/l26hdow0/puzzle/u/x/p/1-high-speed-rubic-cube-3x3x3-by-shree-exim-niveeka-original-imagdh3fdjnhqjwq.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/tap2kaart-high-speed-rubic-cube-3x3x3/p/itm728fc7d3ec695"
+    },
+    {
+      "name": "D ETERNAL cube combo set of 2 rubix cube 2X2 3x3 rubic ...",
+      "link": "https://www.flipkart.com/d-eternal-cube-combo-set-2-rubix-2x2-3x3-rubic-high-speed-stickerless-magic-puzzle-brainstorming-game-toy/p/itmbc01ed2a3bd7d",
+      "current_price": 419,
+      "original_price": 799,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/d-eternal-cube-combo-set-2-rubix-2x2-3x3-rubic-high-speed-stickerless-magic-puzzle-brainstorming-game-toy/p/itmbc01ed2a3bd7d"
+    },
+    {
+      "name": "jYOKRi New Fully Smooth Magic Cube 3x3x3 Cube Easy Smoo...",
+      "link": "https://www.flipkart.com/jyokri-new-fully-smooth-magic-cube-3x3x3-easy-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm9af847ecc72b4",
+      "current_price": 248,
+      "original_price": 599,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/jyokri-new-fully-smooth-magic-cube-3x3x3-easy-turning-stickerless-anti-pop-structure-durable-puzzle-toys-all-age-kids-adults-professional-plays-christmas-stocking-stuffers-educational-children-gift-rubic-puzzle-box-learning-games/p/itm9af847ecc72b4"
+    },
+    {
+      "name": "Cubelelo YJ Stacking Cups (Cardboard Box)- Blue Puzzle ...",
+      "link": "https://www.flipkart.com/cubelelo-yj-stacking-cups-cardboard-box-blue-puzzle-toy-rubik-rubix-rubic-speed-cube/p/itmfguefwsb9vzwg",
+      "current_price": 539,
+      "original_price": 1199,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/cubelelo-yj-stacking-cups-cardboard-box-blue-puzzle-toy-rubik-rubix-rubic-speed-cube/p/itmfguefwsb9vzwg"
+    },
+    {
+      "name": "TinyTales Rubic cube 3x3x3 high speed magic brainteaser...",
+      "link": "https://www.flipkart.com/tinytales-rubic-cube-3x3x3-high-speed-magic-brainteaser-toy/p/itm696aabe02a4ac",
+      "current_price": 365,
+      "original_price": 1299,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/tinytales-rubic-cube-3x3x3-high-speed-magic-brainteaser-toy/p/itm696aabe02a4ac"
+    },
+    {
+      "name": "Authfort Imported 3X3 and 4X4 Stickerless High Speed Ru...",
+      "link": "https://www.flipkart.com/authfort-imported-3x3-4x4-stickerless-high-speed-rubic-magic-cube-combo-2-pcs/p/itmfbfduqg2g26z9",
+      "current_price": 499,
+      "original_price": 900,
+      "discounted": true,
+      "thumbnail": [],
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/authfort-imported-3x3-4x4-stickerless-high-speed-rubic-magic-cube-combo-2-pcs/p/itmfbfduqg2g26z9"
+    },
+    {
+      "name": "saiahishya enterprise High Speed Rubic Cube 3x3x3",
+      "link": "https://www.flipkart.com/saiahishya-enterprise-high-speed-rubic-cube-3x3x3/p/itmf83e402d1c531",
+      "current_price": 149,
+      "original_price": 349,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/612/612/kbgu1e80/puzzle/9/g/5/1-high-speed-3d-puzzle-cube-stickerless-cube-toy-dawnrays-original-imafssz5nhcynzmw.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/saiahishya-enterprise-high-speed-rubic-cube-3x3x3/p/itmf83e402d1c531"
+    }
+  ]
 }
