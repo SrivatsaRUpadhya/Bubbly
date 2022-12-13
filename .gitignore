@@ -4,3 +4,4 @@ node_modules/
 !public/*.json
 public/amazonResult.json
 public/flipkartResult.json
+public/result.json

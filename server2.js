@@ -47,26 +47,39 @@ app.post('/submit', (req, res)=>
 {
     let query = req.body.search_box;
     console.log(query);
-    (async () => 
-    {
-        try 
-        {
-            const products = amazonScraper.products({ keyword: query, number: 10, country: "IN" });
-            fs.writeFileSync("amazonResult.json", JSON.stringify(products));
+    (async () => {
+        try {
+            // Wrap the code that needs to be executed before res.send(data) in a Promise
+            const promise = new Promise((resolve, reject) => {
+                request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) => {
+                    if (!error && response.statusCode == 200) {
+                        fs.writeFile("public/flipkartResult.json", body, (err) => {
+                            if (err) {
+                                reject(err);
+                            } else {
+                                console.log("Flipkart file written successfully");
+                                resolve();
+                            }
+                        });
+                    } else {
+                        console.log("Error during Flipkart api request :", error);
+                        reject(error);
+                    }
+                });
+            });
 
-            request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
-            {
-                if (!error && response.statusCode == 200)
-                {
-                    fs.writeFileSync("flipkartResult.json", body);
-                    console.log("JSON successfully receieved and wrote the data to the file.");
-                }
-                else
-                {
-                    console.log("Error during Flipkart api request :", error);
+            const products = await amazonScraper.products({ keyword: query, number: 15, country: "IN" });
+            fs.writeFile("public/amazonResult.json", JSON.stringify(products), (err) => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log("Amazon file written successfully");
                 }
             });
 
+            // Wait for the promise to be resolved before calling res.send(data)
+            await promise;
+    
             app.use(express.static('public', options));
             fs.readFile('index.html', 'utf-8', (err, data)=>
             {
