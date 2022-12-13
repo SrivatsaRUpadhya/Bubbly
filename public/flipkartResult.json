@@ -1,223 +1,223 @@
 {
   "total_result": 24,
-  "query": "ipad",
-  "fetch_from": "https://www.flipkart.com/search?marketplace=FLIPKART&q=ipad",
+  "query": "macbook",
+  "fetch_from": "https://www.flipkart.com/search?marketplace=FLIPKART&q=macbook",
   "result": [
     {
-      "name": "APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-only-space-grey/p/itmd7d2c4840fa04",
-      "current_price": 29990,
-      "original_price": 30900,
-      "discounted": true,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-only-space-grey/p/itmd7d2c4840fa04"
-    },
-    {
-      "name": "APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Silver)",
-      "link": "https://www.flipkart.com/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-only-silver/p/itmaec2e3fa2ddba",
-      "current_price": 29990,
-      "original_price": 30900,
-      "discounted": true,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/6/o/s/mk2p3hn-a-apple-original-imag6yy8deumbvxz.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-only-silver/p/itmaec2e3fa2ddba"
-    },
-    {
-      "name": "APPLE iPad mini (6th Gen) 64 GB ROM 8.3 inch with Wi-Fi Only (Starlight)",
-      "link": "https://www.flipkart.com/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-only-starlight/p/itm8caa558213908",
-      "current_price": 46900,
-      "original_price": 46900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/s/j/5/mk7p3hn-a-apple-original-imag6yg2yjrzawsc.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-only-starlight/p/itm8caa558213908"
-    },
-    {
-      "name": "APPLE iPad Pro 2021 (5th Generation) 8 GB RAM 256 GB ROM 12.9 inches with Wi-Fi Only (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-pro-2021-5th-generation-8-gb-ram-256-rom-12-9-inches-wi-fi-only-space-grey/p/itm1f151cbf68c4c",
-      "current_price": 108900,
-      "original_price": 108900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kolsscw0/tablet/y/6/n/mhnf3hn-a-apple-original-imag3yrwhentxr4x.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-pro-2021-5th-generation-8-gb-ram-256-rom-12-9-inches-wi-fi-only-space-grey/p/itm1f151cbf68c4c"
-    },
-    {
-      "name": "APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi+5G (Silver)",
-      "link": "https://www.flipkart.com/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-5g-silver/p/itm96b3045e0609d",
-      "current_price": 42900,
-      "original_price": 42900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/j/j/s/mk4h3hn-a-apple-original-imag6yy8mdrrpynf.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-5g-silver/p/itm96b3045e0609d"
-    },
-    {
-      "name": "APPLE iPad mini (6th Gen) 64 GB ROM 8.3 inch with Wi-Fi Only (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-only-space-grey/p/itm2c4c4897a6e3e",
-      "current_price": 46900,
-      "original_price": 46900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/q/a/f/mk7m3hn-a-apple-original-imag6ygf8zsvzpdg.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-only-space-grey/p/itm2c4c4897a6e3e"
-    },
-    {
-      "name": "APPLE iPad Air (4th Gen) 256 GB ROM 10.9 inch with Wi-Fi Only (Sky Blue)",
-      "link": "https://www.flipkart.com/apple-ipad-air-4th-gen-256-gb-rom-10-9-inch-wi-fi-only-sky-blue/p/itma1f8e2504b41a",
-      "current_price": 68900,
-      "original_price": 68900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kf75fgw0/tablet/n/h/h/apple-myfy2hn-a-original-imafvpqaebw8r7cv.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-4th-gen-256-gb-rom-10-9-inch-wi-fi-only-sky-blue/p/itma1f8e2504b41a"
-    },
-    {
-      "name": "APPLE iPad Air (5th gen) 64 GB ROM 10.9 Inch with Wi-Fi+5G (space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-space-grey/p/itm314f0d04b3bba",
-      "current_price": 68900,
-      "original_price": 68900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l0jwbrk0/tablet/1/d/4/-original-imagcbjg9qd9hpfk.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-space-grey/p/itm314f0d04b3bba"
-    },
-    {
-      "name": "APPLE iPad Air (5th gen) 64 GB ROM 10.9 Inch with Wi-Fi+5G (Pink)",
-      "link": "https://www.flipkart.com/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-pink/p/itm04cd5fb2a8b12",
-      "current_price": 68900,
-      "original_price": 68900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l0jwbrk0/tablet/q/m/n/-original-imagcbjgbd2r5x8f.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-pink/p/itm04cd5fb2a8b12"
-    },
-    {
-      "name": "APPLE iPad mini (6th Gen) 64 GB ROM 8.3 inch with Wi-Fi+5G (Starlight)",
-      "link": "https://www.flipkart.com/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-5g-starlight/p/itm20aad84648b91",
-      "current_price": 60900,
-      "original_price": 60900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/q/y/c/mk8h3hn-a-apple-original-imag6yg2rfg6jbvn.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-5g-starlight/p/itm20aad84648b91"
-    },
-    {
-      "name": "APPLE iPad (9th Gen) 256 GB ROM 10.2 inch with Wi-Fi Only (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-9th-gen-256-gb-rom-10-2-inch-wi-fi-only-space-grey/p/itmfcb9ebe4ee891",
-      "current_price": 44900,
-      "original_price": 44900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-9th-gen-256-gb-rom-10-2-inch-wi-fi-only-space-grey/p/itmfcb9ebe4ee891"
-    },
-    {
-      "name": "APPLE iPad Air (4th Gen) 256 GB ROM 10.9 inch with Wi-Fi Only (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-air-4th-gen-256-gb-rom-10-9-inch-wi-fi-only-space-grey/p/itmfb3369a1c8923",
-      "current_price": 68900,
-      "original_price": 68900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kf75fgw0/tablet/y/g/2/apple-myft2hn-a-original-imafvpqanefaqm2u.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-4th-gen-256-gb-rom-10-9-inch-wi-fi-only-space-grey/p/itmfb3369a1c8923"
-    },
-    {
-      "name": "APPLE iPad Air (5th gen) 64 GB ROM 10.9 Inch with Wi-Fi+5G (Purple)",
-      "link": "https://www.flipkart.com/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-purple/p/itm060a7ed2470ce",
-      "current_price": 68900,
-      "original_price": 68900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l0jwbrk0/tablet/h/l/f/-original-imagcbjgzhfak2jd.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-purple/p/itm060a7ed2470ce"
-    },
-    {
-      "name": "APPLE iPad Air (4th Gen) 64 GB ROM 10.9 inch with Wi-Fi Only (Green)",
-      "link": "https://www.flipkart.com/apple-ipad-air-4th-gen-64-gb-rom-10-9-inch-wi-fi-only-green/p/itm6ed3458fb3a98",
-      "current_price": 52900,
-      "original_price": 54900,
-      "discounted": true,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kf75fgw0/tablet/f/9/k/apple-myg02hn-a-original-imafvpqafhnn9yzh.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-4th-gen-64-gb-rom-10-9-inch-wi-fi-only-green/p/itm6ed3458fb3a98"
-    },
-    {
-      "name": "APPLE iPad Pro 2021 (5th Generation) 8 GB RAM 128 GB ROM 12.9 inches with Wi-Fi Only (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-pro-2021-5th-generation-8-gb-ram-128-rom-12-9-inches-wi-fi-only-space-grey/p/itm8196f1c3e30ae",
-      "current_price": 99900,
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itmde54f026889ce",
+      "current_price": 88990,
       "original_price": 99900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kolsscw0/tablet/y/6/n/mhnf3hn-a-apple-original-imag3yrwhentxr4x.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-pro-2021-5th-generation-8-gb-ram-128-rom-12-9-inches-wi-fi-only-space-grey/p/itm8196f1c3e30ae"
-    },
-    {
-      "name": "APPLE iPad mini (6th Gen) 64 GB ROM 8.3 inch with Wi-Fi Only (Purple)",
-      "link": "https://www.flipkart.com/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-only-purple/p/itm0f0b4cabc4d84",
-      "current_price": 46900,
-      "original_price": 46900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/9/9/m/mk7r3hn-a-apple-original-imag6ygfdsprqvpz.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-mini-6th-gen-64-gb-rom-8-3-inch-wi-fi-only-purple/p/itm0f0b4cabc4d84"
-    },
-    {
-      "name": "APPLE iPad Air (5th gen) 64 GB ROM 10.9 Inch with Wi-Fi+5G (Blue)",
-      "link": "https://www.flipkart.com/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-blue/p/itm7365bd5772581",
-      "current_price": 68900,
-      "original_price": 68900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l0jwbrk0/tablet/z/q/k/-original-imagcbjgy7jxjxtz.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-5th-gen-64-gb-rom-10-9-inch-wi-fi-5g-blue/p/itm7365bd5772581"
-    },
-    {
-      "name": "APPLE ipad Mini (2019) 256 GB ROM 7.9 inch with Wi-Fi Only (Silver)",
-      "link": "https://www.flipkart.com/apple-ipad-mini-2019-256-gb-rom-7-9-inch-wi-fi-only-silver/p/itm50ca123be4f56",
-      "current_price": 48900,
-      "original_price": 48900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k0lbdzk0pkrrdj/tablet/n/u/c/apple-muqx2hn-a-original-imaff849epq2fjj5.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-mini-2019-256-gb-rom-7-9-inch-wi-fi-only-silver/p/itm50ca123be4f56"
-    },
-    {
-      "name": "APPLE iPad Air (4th Gen) 64 GB ROM 10.9 inch with Wi-Fi Only (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-air-4th-gen-64-gb-rom-10-9-inch-wi-fi-only-space-grey/p/itm49993f1f0f28d",
-      "current_price": 52900,
-      "original_price": 54900,
       "discounted": true,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kf75fgw0/tablet/y/g/2/apple-myft2hn-a-original-imafvpqanefaqm2u.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-air-4th-gen-64-gb-rom-10-9-inch-wi-fi-only-space-grey/p/itm49993f1f0f28d"
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itmde54f026889ce"
     },
     {
-      "name": "APPLE iPad (9th Gen) 256 GB ROM 10.2 inch with Wi-Fi+5G (Silver)",
-      "link": "https://www.flipkart.com/apple-ipad-9th-gen-256-gb-rom-10-2-inch-wi-fi-5g-silver/p/itmfdc78e39933da",
-      "current_price": 56900,
-      "original_price": 56900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/j/j/s/mk4h3hn-a-apple-original-imag6yy8mdrrpynf.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-9th-gen-256-gb-rom-10-2-inch-wi-fi-5g-silver/p/itmfdc78e39933da"
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGND3HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgnd3hn-a/p/itma8a9681af6907",
+      "current_price": 88990,
+      "original_price": 99900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kruyw7k0/computer/v/x/v/na-thin-and-light-laptop-apple-original-imag5jt7u9fzenqb.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgnd3hn-a/p/itma8a9681af6907"
     },
     {
-      "name": "APPLE iPad (9th Gen) 256 GB ROM 10.2 inch with Wi-Fi+5G (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-9th-gen-256-gb-rom-10-2-inch-wi-fi-5g-space-grey/p/itmc3871c79f76c6",
-      "current_price": 56900,
-      "original_price": 56900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/g/r/8/mk473hn-a-apple-original-imag6yy7mtfmqhgt.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-9th-gen-256-gb-rom-10-2-inch-wi-fi-5g-space-grey/p/itmc3871c79f76c6"
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN93HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn93hn-a/p/itmb53580bb51a7e",
+      "current_price": 88990,
+      "original_price": 99900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn93hn-a/p/itmb53580bb51a7e"
     },
     {
-      "name": "APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi+5G (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-5g-space-grey/p/itmd760a31e8f8d8",
-      "current_price": 42900,
-      "original_price": 42900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktop5e80/tablet/g/r/8/mk473hn-a-apple-original-imag6yy7mtfmqhgt.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-9th-gen-64-gb-rom-10-2-inch-wi-fi-5g-space-grey/p/itmd760a31e8f8d8"
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/512 GB SSD/Mac OS Big Sur) MGNE3HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgne3hn-a/p/itm42b58d659c133",
+      "current_price": 104990,
+      "original_price": 117900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/s/2/g/apple-original-imafxfyqykyghjg6.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgne3hn-a/p/itm42b58d659c133"
     },
     {
-      "name": "APPLE iPad Pro 2021 (3rd Generation) 8 GB RAM 256 GB ROM 11 inches with Wi-Fi+5G (Silver)",
-      "link": "https://www.flipkart.com/apple-ipad-pro-2021-3rd-generation-8-gb-ram-256-rom-11-inches-wi-fi-5g-silver/p/itme3ec7eef4c275",
-      "current_price": 94900,
-      "original_price": 94900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kolsscw0/tablet/n/r/c/mhwd3hn-a-apple-original-imag3yr5xrqchvrg.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-pro-2021-3rd-generation-8-gb-ram-256-rom-11-inches-wi-fi-5g-silver/p/itme3ec7eef4c275"
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/512 GB SSD/Mac OS Big Sur) MGN73HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgn73hn-a/p/itm37da92e833fa3",
+      "current_price": 104990,
+      "original_price": 117900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/5/d/e/apple-original-imafxfyqkdfxqjab.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgn73hn-a/p/itm37da92e833fa3"
     },
     {
-      "name": "APPLE iPad Pro 2021 (5th Generation) 16 GB RAM 1 TB ROM 12.9 inches with Wi-Fi+5G (Space Grey)",
-      "link": "https://www.flipkart.com/apple-ipad-pro-2021-5th-generation-16-gb-ram-1-tb-rom-12-9-inches-wi-fi-5g-space-grey/p/itm73be117553c63",
-      "current_price": 176900,
-      "original_price": 176900,
-      "discounted": false,
-      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kod858w0/tablet/i/e/x/mhqr3hn-a-apple-original-imag2ujneawpdgzs.jpeg?q=70",
-      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-ipad-pro-2021-5th-generation-16-gb-ram-1-tb-rom-12-9-inches-wi-fi-5g-space-grey/p/itm73be117553c63"
+      "name": "APPLE MacBook Air M1 - (16 GB/512 GB SSD/Mac OS Big Sur) Z124J006KD",
+      "link": "https://www.flipkart.com/apple-macbook-air-m1-16-gb-512-gb-ssd-mac-os-big-sur-z124j006kd/p/itm57dd82a9cdd4d",
+      "current_price": 124990,
+      "original_price": 132900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kyt0ya80/computer/i/d/p/na-thin-and-light-laptop-apple-original-imagaygvtvf6cx8h.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-macbook-air-m1-16-gb-512-gb-ssd-mac-os-big-sur-z124j006kd/p/itm57dd82a9cdd4d"
+    },
+    {
+      "name": "APPLE MacBook Air M1 - (16 GB/256 GB SSD/Mac OS Big Sur) Z124J001KD",
+      "link": "https://www.flipkart.com/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j001kd/p/itm99fb41e01ea8a",
+      "current_price": 104990,
+      "original_price": 112900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kyt0ya80/computer/b/v/q/na-thin-and-light-laptop-apple-original-imagaygvkp7pjexm.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j001kd/p/itm99fb41e01ea8a"
+    },
+    {
+      "name": "APPLE MacBook Air M1 - (16 GB/256 GB SSD/Mac OS Big Sur) Z124J005KD",
+      "link": "https://www.flipkart.com/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j005kd/p/itm5feb8febbc5d9",
+      "current_price": 104990,
+      "original_price": 112900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kyt0ya80/computer/i/d/p/na-thin-and-light-laptop-apple-original-imagaygvtvf6cx8h.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j005kd/p/itm5feb8febbc5d9"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MKGR3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgr3hn-a/p/itm9c08d68146df6",
+      "current_price": 181990,
+      "original_price": 194900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/z/k/q/mkgr3hn-a-thin-and-light-laptop-apple-original-imag7yzp78bpnzyg.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgr3hn-a/p/itm9c08d68146df6"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MK183HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk183hn-a/p/itm50d993356f048",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk183hn-a/p/itm50d993356f048"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MK1F3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk1f3hn-a/p/itm4ebc9965a16d9",
+      "current_price": 241990,
+      "original_price": 259900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk1f3hn-a/p/itm4ebc9965a16d9"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Max - (32 GB/1 TB SSD/Mac OS Monterey) MK1A3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1a3hn-a/p/itm00aac391057cc",
+      "current_price": 306990,
+      "original_price": 329900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1a3hn-a/p/itm00aac391057cc"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MKGT3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgt3hn-a/p/itm533a202480447",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/z/k/q/mkgr3hn-a-thin-and-light-laptop-apple-original-imag7yzp78bpnzyg.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgt3hn-a/p/itm533a202480447"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MK193HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk193hn-a/p/itmac98e5071f1b4",
+      "current_price": 241990,
+      "original_price": 259900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk193hn-a/p/itmac98e5071f1b4"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MKGP3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgp3hn-a/p/itmb07cc25112c60",
+      "current_price": 181990,
+      "original_price": 194900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/c/8/u/mkgp3hn-a-thin-and-light-laptop-apple-original-imag7yznc5d2rsuh.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgp3hn-a/p/itmb07cc25112c60"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MKGQ3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgq3hn-a/p/itmd3d13e8e4c5f7",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/c/8/u/mkgp3hn-a-thin-and-light-laptop-apple-original-imag7yznc5d2rsuh.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgq3hn-a/p/itmd3d13e8e4c5f7"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MK1E3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk1e3hn-a/p/itm42e9184917963",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk1e3hn-a/p/itm42e9184917963"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Max - (32 GB/1 TB SSD/Mac OS Monterey) MK1H3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1h3hn-a/p/itmb02d4fba3c131",
+      "current_price": 306990,
+      "original_price": 329900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1h3hn-a/p/itmb02d4fba3c131"
+    },
+    {
+      "name": "APPLE 2020 Macbook Pro M1 - (8 GB/512 GB SSD/Mac OS Big Sur) MYD92HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-pro-m1-8-gb-512-gb-ssd-mac-os-big-sur-myd92hn-a/p/itmbe44ce71a4225",
+      "current_price": 129990,
+      "original_price": 142900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/e/6/n/apple-original-imafxfyq4agsgysn.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-pro-m1-8-gb-512-gb-ssd-mac-os-big-sur-myd92hn-a/p/itmbe44ce71a4225"
+    },
+    {
+      "name": "APPLE 2022 MacBook Pro M2 - (8 GB/512 GB SSD/Mac OS Monterey) MNEQ3HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-pro-m2-8-gb-512-gb-ssd-mac-os-monterey-mneq3hn-a/p/itm4bc8d80e185ea",
+      "current_price": 139990,
+      "original_price": 149900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/g/u/k/macbook-pro-thin-and-light-laptop-apple-original-imagfdewfh9z3pee.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-pro-m2-8-gb-512-gb-ssd-mac-os-monterey-mneq3hn-a/p/itm4bc8d80e185ea"
+    },
+    {
+      "name": "APPLE 2022 MacBook Pro M2 - (8 GB/256 GB SSD/Mac OS Monterey) MNEH3HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mneh3hn-a/p/itmaea892f7dd66e",
+      "current_price": 121990,
+      "original_price": 129900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/r/6/b/macbook-pro-thin-and-light-laptop-apple-original-imagfdeu9rmugapt.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mneh3hn-a/p/itmaea892f7dd66e"
+    },
+    {
+      "name": "APPLE 2022 MacBook AIR M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY33HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mly33hn-a/p/itm48f8f11263927",
+      "current_price": 112990,
+      "original_price": 119900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/y/j/z/macbook-air-thin-and-light-laptop-apple-original-imagfdeqter4sj2j.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mly33hn-a/p/itm48f8f11263927"
+    },
+    {
+      "name": "APPLE 2022 MacBook Pro M2 - (8 GB/256 GB SSD/Mac OS Monterey) MNEP3HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mnep3hn-a/p/itm421ae549343a0",
+      "current_price": 121990,
+      "original_price": 129900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/g/u/k/macbook-pro-thin-and-light-laptop-apple-original-imagfdewfh9z3pee.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mnep3hn-a/p/itm421ae549343a0"
+    },
+    {
+      "name": "APPLE 2022 MacBook AIR M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY43HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-512-gb-ssd-mac-os-monterey-mly43hn-a/p/itm14cf121550d1a",
+      "current_price": 139990,
+      "original_price": 149900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/y/j/z/macbook-air-thin-and-light-laptop-apple-original-imagfdeqter4sj2j.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-air-m2-8-gb-512-gb-ssd-mac-os-monterey-mly43hn-a/p/itm14cf121550d1a"
     }
   ]
 }

@@ -1,3 +1,6 @@
 node_modules/
 *.json
 public/*.json
+public/amazonResult.json
+public/flipkartResult.json
+public/result.json
