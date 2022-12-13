@@ -60,6 +60,30 @@ body{
     border-radius: 2px;
     background-color: wheat;
 }
+
+#imageFormat {
+    width: 500px;
+    height: 250px;
+}
+
+#imageFormat img {
+    max-width: 500px;
+    height: 250px;
+}
+
+@media (min-width: 300px) {
+    #imageFormat img {
+        max-height: 140px;
+    }
+}
+
+#productDiv {
+    display:block;
+    width:100%;
+    height:300px;
+    overflow:scroll;
+}
+
 .frames{
     height: 100%;
     padding: 0%;

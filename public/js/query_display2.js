@@ -15,21 +15,35 @@ function add_data(){
             console.log(responseData);
             const main_list = document.getElementById("flipkartSearchResults");
             responseData['result'].forEach(element => {
+                // Create a new div element
+                var prd_div = document.createElement('div');
+                // Set the id attribute of the div to "productDiv"
+                prd_div.setAttribute('id', 'productDiv');
 
-            var prd_li = main_list.appendChild(document.createElement('li'));
-            console.log(prd_li);
-
-            var prd_price = main_list.appendChild(document.createElement('h3'));
-            prd_price.innerText = element['current_price'];
-            console.log(prd_price);
-
-            var prd_img = main_list.appendChild(document.createElement('img'));
-            prd_img.src = element['thumbnail'];
-
-            var prd_url = prd_li.appendChild(document.createElement('a'));
-            prd_url.href = element['query_url'];
-            prd_url.textContent = element['name'];
+                // Create a new li element
+                var prd_li = prd_div.appendChild(document.createElement('li'));
+                
+                // Create a new h3 element for the price
+                var prd_price = prd_div.appendChild(document.createElement('h4'));
+                prd_price.innerText = element['current_price'];
+              
+                // Create a new div element for the image
+                var img_div = prd_div.appendChild(document.createElement('div'));
+                img_div.id = "imageFormat";
+              
+                // Create a new img element for the product image
+                var prd_img = img_div.appendChild(document.createElement('img'));
+                prd_img.src = element['thumbnail'];
+              
+                // Create a new a element for the product url
+                var prd_url = prd_li.appendChild(document.createElement('a'));
+                prd_url.href = element['query_url'];
+                prd_url.textContent = element['name'];
+              
+                // Append the new div element to the main_list
+                main_list.appendChild(prd_div);
             });
+              
             return responseData;
 
         })
