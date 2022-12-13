@@ -51,38 +51,37 @@ app.post('/submit', (req, res)=>
     {
         try 
         {
-                request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
+            const products = amazonScraper.products({ keyword: query, number: 10, country: "IN" });
+            fs.writeFileSync("public/amazonResult.json", JSON.stringify(products));
+
+            request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
+            {
+                if (!error && response.statusCode == 200)
                 {
-                    if (!error && response.statusCode == 200) 
-                    {
-                        //var importedJSON = body;
-                        //console.log(importedJSON);
-                        //fs.writeFileSync("public/result.json", JSON.stringify(importedJSON));
-                        //console.log(response);
-                        fs.writeFileSync("public/result.json", body);
-                        console.log("JSON successfully receieved and wrote the data to the file.");
-                        
-                        app.use(express.static('public', options));
-                        fs.readFile('index.html', 'utf-8', (err, data)=>
-                        {
-                            //fs.writeFileSync("public/result.json", importedJSON);
-                            if (err) {
-                                res.writeHead(404);
-                                res.write("Something went wrong!");
-                                console.log(err);
-                            }
-                            else
-                            {
-                                res.send(data);
-                                console.log("Data sent to the website");
-                            }
-                        });
-                    }
-                    else
-                    {
-                        console.log("Error during Flipkart api request :", error);
-                    }
-                });  
+                    fs.writeFileSync("public/flipkartResult.json", body);
+                    console.log("JSON successfully receieved and wrote the data to the file.");
+                }
+                else
+                {
+                    console.log("Error during Flipkart api request :", error);
+                }
+            });
+
+            app.use(express.static('public', options));
+            fs.readFile('index.html', 'utf-8', (err, data)=>
+            {
+                if (err) {
+                    res.writeHead(404);
+                    res.write("Something went wrong!");
+                    console.log(err);
+                }
+                else
+                {
+                    res.send(data);
+                    console.log("Data sent to the website");
+                }
+            });
+
         }
         catch (error) 
         {
@@ -102,22 +101,3 @@ app.listen(port, err=>{
         console.log("Server listening on the port: ", port);
     }
 });
-
-//The code below was a try using a node server but it has to be explictly asked to serve each file so it cannot be used
-
-// const server = http.createServer((req, res)=>{
-//     res.writeHead(200, {'Content-Type' : 'text/html'});
-//     fs.readFile('Bubbly/index.html', 'utf-8', (err, data)=>{
-//         if (err) {
-//             res.writeHead(404);
-//             res.write("Something went wrong!")
-//             console.log(err);
-//         }
-//         else{
-//             res.write(data)
-//         }
-//         res.end();
-//     })
-
-
-// });

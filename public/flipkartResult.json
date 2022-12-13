@@ -1,0 +1,223 @@
+{
+  "total_result": 24,
+  "query": "iphone",
+  "fetch_from": "https://www.flipkart.com/search?marketplace=FLIPKART&q=iphone",
+  "result": [
+    {
+      "name": "APPLE iPhone 11 (Black, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd",
+      "current_price": 40999,
+      "original_price": 43900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/x/j/s/iphone-11-128-d-mwm02hn-a-apple-0-original-imafkg242ugz8hwc.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd"
+    },
+    {
+      "name": "APPLE iPhone 13 (Green, 256 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-green-256-gb/p/itm14914e5e84473",
+      "current_price": 69999,
+      "original_price": 79900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l0igvww0/mobile/r/q/m/-original-imagca5ajerqpfjy.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-green-256-gb/p/itm14914e5e84473"
+    },
+    {
+      "name": "APPLE iPhone 11 (Black, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-black-128-gb/p/itm8244e8d955aba",
+      "current_price": 45999,
+      "original_price": 48900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/x/j/s/iphone-11-128-d-mwm02hn-a-apple-0-original-imafkg242ugz8hwc.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-black-128-gb/p/itm8244e8d955aba"
+    },
+    {
+      "name": "APPLE iPhone 12 Mini (Black, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-12-mini-black-64-gb/p/itm38b727191eb08",
+      "current_price": 39999,
+      "original_price": 59900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwkfrerak.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-12-mini-black-64-gb/p/itm38b727191eb08"
+    },
+    {
+      "name": "APPLE iPhone 12 Mini (White, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-12-mini-white-64-gb/p/itmf3b16d1640898",
+      "current_price": 39999,
+      "original_price": 59900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/d/g/b/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfhx4cfzue.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-12-mini-white-64-gb/p/itmf3b16d1640898"
+    },
+    {
+      "name": "APPLE iPhone 11 (White, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-white-64-gb/p/itmfc6a7091eb20b",
+      "current_price": 40999,
+      "original_price": 43990,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/k/y/d/iphone-11-256-u-mwm82hn-a-apple-0-original-imafkg25mhaztxns.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-white-64-gb/p/itmfc6a7091eb20b"
+    },
+    {
+      "name": "APPLE iPhone 11 (White, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742",
+      "current_price": 45999,
+      "original_price": 48900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/k/y/d/iphone-11-256-u-mwm82hn-a-apple-0-original-imafkg25mhaztxns.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-white-128-gb/p/itme32df47ea6742"
+    },
+    {
+      "name": "APPLE iPhone 11 (Red, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-red-128-gb/p/itm8d14bd0e33a1c",
+      "current_price": 43999,
+      "original_price": 48900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/q/z/g/iphone-11-128-a-mwm32hn-a-apple-0-original-imafkg25hjmuy98e.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-red-128-gb/p/itm8d14bd0e33a1c"
+    },
+    {
+      "name": "APPLE iPhone 12 (Blue, 256 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-12-blue-256-gb/p/itm3be487cd1dea5",
+      "current_price": 69999,
+      "original_price": 74900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/y/7/n/apple-iphone-12-dummyapplefsn-original-imafwg8dpyjvgg3j.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-12-blue-256-gb/p/itm3be487cd1dea5"
+    },
+    {
+      "name": "APPLE iPhone 12 Mini (Blue, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-12-mini-blue-64-gb/p/itm2883104474448",
+      "current_price": 39999,
+      "original_price": 59900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/s/h/f/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfukehtnxv.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-12-mini-blue-64-gb/p/itm2883104474448"
+    },
+    {
+      "name": "APPLE iPhone 11 (Yellow, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-yellow-128-gb/p/itm7030edc9e100e",
+      "current_price": 45999,
+      "original_price": 48900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/y/y/z/iphone-11-64-a-mwlw2hn-a-apple-0-original-imafkg25qghgbxmm.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-yellow-128-gb/p/itm7030edc9e100e"
+    },
+    {
+      "name": "APPLE iPhone 13 (Blue, 256 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-blue-256-gb/p/itmd68a015aa1e39",
+      "current_price": 69999,
+      "original_price": 79900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/2/y/o/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjngg.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-blue-256-gb/p/itmd68a015aa1e39"
+    },
+    {
+      "name": "APPLE iPhone 12 (Black, 256 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-12-black-256-gb/p/itm68421fa1c1121",
+      "current_price": 69999,
+      "original_price": 74900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-12-black-256-gb/p/itm68421fa1c1121"
+    },
+    {
+      "name": "APPLE iPhone 11 (Green, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-green-64-gb/p/itm386a85013a3d1",
+      "current_price": 40999,
+      "original_price": 43990,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/u/z/t/iphone-11-256-c-mwmd2hn-a-apple-0-original-imafkg24wszdhzy3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-green-64-gb/p/itm386a85013a3d1"
+    },
+    {
+      "name": "APPLE iPhone 13 (Blue, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-blue-128-gb/p/itm6c601e0a58b3c",
+      "current_price": 65999,
+      "original_price": 69900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/2/y/o/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjngg.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-blue-128-gb/p/itm6c601e0a58b3c"
+    },
+    {
+      "name": "APPLE iPhone 13 (Midnight, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-midnight-128-gb/p/itmca361aab1c5b0",
+      "current_price": 65999,
+      "original_price": 69900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-midnight-128-gb/p/itmca361aab1c5b0"
+    },
+    {
+      "name": "APPLE iPhone 13 (Green, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-green-128-gb/p/itm18a55937b2607",
+      "current_price": 65999,
+      "original_price": 69900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l0igvww0/mobile/r/q/m/-original-imagca5ajerqpfjy.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-green-128-gb/p/itm18a55937b2607"
+    },
+    {
+      "name": "APPLE iPhone 14 (Midnight, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84",
+      "current_price": 78740,
+      "original_price": 79900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/9/e/e/-original-imaghx9q5rvcdghy.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-14-midnight-128-gb/p/itm9e6293c322a84"
+    },
+    {
+      "name": "APPLE iPhone 14 (Blue, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d",
+      "current_price": 78740,
+      "original_price": 79900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-14-blue-128-gb/p/itmdb77f40da6b6d"
+    },
+    {
+      "name": "APPLE iPhone 11 (Yellow, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-yellow-64-gb/p/itm39b1a0ba9ddcb",
+      "current_price": 40999,
+      "original_price": 43900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/y/y/z/iphone-11-64-a-mwlw2hn-a-apple-0-original-imafkg25qghgbxmm.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-yellow-64-gb/p/itm39b1a0ba9ddcb"
+    },
+    {
+      "name": "APPLE iPhone 11 (Red, 64 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-11-red-64-gb/p/itmc3935326f2feb",
+      "current_price": 40999,
+      "original_price": 43900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/k2jbyq80pkrrdj/mobile-refurbished/q/z/g/iphone-11-128-a-mwm32hn-a-apple-0-original-imafkg25hjmuy98e.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-11-red-64-gb/p/itmc3935326f2feb"
+    },
+    {
+      "name": "APPLE iPhone 13 ((PRODUCT)RED, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-product-red-128-gb/p/itm99b5658d148b0",
+      "current_price": 65999,
+      "original_price": 69900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/a/m/7/iphone-13-mlpj3hn-a-apple-original-imag6vpyk3w4zarg.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-product-red-128-gb/p/itm99b5658d148b0"
+    },
+    {
+      "name": "APPLE iPhone 13 (Starlight, 128 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-starlight-128-gb/p/itmc9604f122ae7f",
+      "current_price": 65999,
+      "original_price": 69900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-starlight-128-gb/p/itmc9604f122ae7f"
+    },
+    {
+      "name": "APPLE iPhone 13 (Midnight, 256 GB)",
+      "link": "https://www.flipkart.com/apple-iphone-13-midnight-256-gb/p/itmfa27e6497b641",
+      "current_price": 69999,
+      "original_price": 79900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-iphone-13-midnight-256-gb/p/itmfa27e6497b641"
+    }
+  ]
+}
