@@ -1,6 +1,6 @@
 function add_data(){
 
-    fetch('./amazonResult.json', {
+    fetch('../amazonResult.json', {
         method: 'get',
         dataType: 'jsonp',
         headers: {

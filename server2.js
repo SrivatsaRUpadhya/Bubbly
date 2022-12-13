@@ -52,13 +52,13 @@ app.post('/submit', (req, res)=>
         try 
         {
             const products = amazonScraper.products({ keyword: query, number: 10, country: "IN" });
-            fs.writeFileSync("public/amazonResult.json", JSON.stringify(products));
+            fs.writeFileSync("amazonResult.json", JSON.stringify(products));
 
             request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
             {
                 if (!error && response.statusCode == 200)
                 {
-                    fs.writeFileSync("public/flipkartResult.json", body);
+                    fs.writeFileSync("flipkartResult.json", body);
                     console.log("JSON successfully receieved and wrote the data to the file.");
                 }
                 else

@@ -47,7 +47,7 @@ app.post('/submit', (req, res)=>{
             {
                 if (!error && response.statusCode == 200)
                 {
-                    fs.writeFile("public/flipkartResult.json", body, (err) => {
+                    fs.writeFile("flipkartResult.json", body, (err) => {
                         if (err) {
                             console.log(err);
                         }
@@ -63,7 +63,7 @@ app.post('/submit', (req, res)=>{
             });
 
             const products = await amazonScraper.products({ keyword: query, number: 10, country: "IN" });
-            fs.writeFile("public/amazonResult.json", JSON.stringify(products), (err) => {
+            fs.writeFile("amazonResult.json", JSON.stringify(products), (err) => {
                 if (err) {
                     console.log(err);
                 }
