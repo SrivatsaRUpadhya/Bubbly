@@ -6,7 +6,11 @@ const bodyParser = require("body-parser");
 const amazonScraper = require("amazon-buddy");
 const app = express();
 const port = 8000;
+const cheerio = require('cheerio');
+const axios = require('axios');
 const request = require('request');
+
+const url1 = 'https://flipkart.dvishal485.workers.dev/search/ram';
 
 //This options variable stores the options/config for serving static files
 const options = {
@@ -19,42 +23,43 @@ const options = {
     // setHeaders (res, path, stat) {
     // res.set('x-timestamp', Date.now())
     // }
-}
+};
+
 app.use(bodyParser.urlencoded({extended: false}));
 //The code below is executed when there is a request for the home page
 app.get('/', (req,res)=>{
     const init_data = {};
     fs.writeFileSync("public/result.json", JSON.stringify(init_data), 'utf8');
-    app.use(express.static('public', options))
+    app.use(express.static('public', options));
     fs.readFile('index.html', 'utf-8', (err, data)=>{
         if (err) {
             res.writeHead(404);
-            res.write("Something went wrong!")
+            res.write("<h1>Something went wrong!</h1>");
             console.log(err);
         }
         else{
-            res.send(data)
+            res.send(data);
         }
-    })
-})
+    });
+});
 
-app.post('/submit', (req, res)=>{
-    var query = req.body.search_box;
+app.post('/submit', (req, res)=>
+{
+    let query = req.body.search_box;
     console.log(query);
-    (async () => {
-        try {
+    (async () => 
+    {
+        try 
+        {
+            const products = amazonScraper.products({ keyword: query, number: 10, country: "IN" });
+            fs.writeFileSync("public/amazonResult.json", JSON.stringify(products));
+
             request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
             {
                 if (!error && response.statusCode == 200)
                 {
-                    fs.writeFile("public/flipkartResult.json", body, (err) => {
-                        if (err) {
-                            console.log(err);
-                        }
-                        else {
-                          console.log("Flipkart file written successfully");
-                        }
-                    });
+                    fs.writeFileSync("public/flipkartResult.json", body);
+                    console.log("JSON successfully receieved and wrote the data to the file.");
                 }
                 else
                 {
@@ -62,34 +67,31 @@ app.post('/submit', (req, res)=>{
                 }
             });
 
-            const products = await amazonScraper.products({ keyword: query, number: 10, country: "IN" });
-            fs.writeFile("public/amazonResult.json", JSON.stringify(products), (err) => {
-                if (err) {
-                    console.log(err);
-                }
-                else {
-                  console.log("Amazon file written successfully");
-                }
-            });
-
-            app.use(express.static('public', options))
-            fs.readFile('index.html', 'utf-8', (err, data)=>{
+            app.use(express.static('public', options));
+            fs.readFile('index.html', 'utf-8', (err, data)=>
+            {
                 if (err) {
                     res.writeHead(404);
                     res.write("Something went wrong!");
                     console.log(err);
                 }
-                else{
+                else
+                {
                     res.send(data);
-                    console.log("Data sent to the browser successfully\n");
+                    console.log("Data sent to the website");
                 }
-            })
-        } catch (error) {
+            });
+
+        }
+        catch (error) 
+        {
             console.log(error);
         }
     })();
     console.log("Gathering Data");
-})
+});
+
+
 //Set the port to listen to
 app.listen(port, err=>{
     if (err) {
@@ -99,22 +101,3 @@ app.listen(port, err=>{
         console.log("Server listening on the port: ", port);
     }
 });
-
-//The code below was a try using a node server but it has to be explictly asked to serve each file so it cannot be used
-
-// const server = http.createServer((req, res)=>{
-//     res.writeHead(200, {'Content-Type' : 'text/html'});
-//     fs.readFile('Bubbly/index.html', 'utf-8', (err, data)=>{
-//         if (err) {
-//             res.writeHead(404);
-//             res.write("Something went wrong!")
-//             console.log(err);
-//         }
-//         else{
-//             res.write(data)
-//         }
-//         res.end();
-//     })
-
-
-// });
