@@ -6,6 +6,7 @@ const bodyParser = require("body-parser");
 const amazonScraper = require("amazon-buddy");
 const app = express();
 const port = 8000;
+const request = require('request');
 
 //This options variable stores the options/config for serving static files
 const options = {
@@ -42,19 +43,45 @@ app.post('/submit', (req, res)=>{
     console.log(query);
     (async () => {
         try {
-            // Collect 50 products from a keyword 'xbox one'
-            // Default country is US
+            request('https://flipkart.dvishal485.workers.dev/search/' + query, (error, response, body) =>
+            {
+                if (!error && response.statusCode == 200)
+                {
+                    fs.writeFile("public/flipkartResult.json", body, (err) => {
+                        if (err) {
+                            console.log(err);
+                        }
+                        else {
+                          console.log("Flipkart file written successfully");
+                        }
+                    });
+                }
+                else
+                {
+                    console.log("Error during Flipkart api request :", error);
+                }
+            });
+
             const products = await amazonScraper.products({ keyword: query, number: 10, country: "IN" });
-            fs.writeFileSync("public/result.json", JSON.stringify(products));
+            fs.writeFile("public/amazonResult.json", JSON.stringify(products), (err) => {
+                if (err) {
+                    console.log(err);
+                }
+                else {
+                  console.log("Amazon file written successfully");
+                }
+            });
+
             app.use(express.static('public', options))
             fs.readFile('index.html', 'utf-8', (err, data)=>{
                 if (err) {
                     res.writeHead(404);
-                    res.write("Something went wrong!")
+                    res.write("Something went wrong!");
                     console.log(err);
                 }
                 else{
-                    res.send(data)
+                    res.send(data);
+                    console.log("Data sent to the browser successfully\n");
                 }
             })
         } catch (error) {
