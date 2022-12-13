@@ -5,3 +5,4 @@ node_modules/
 
 public/amazonResult.json
 public/flipkartResult.json
+public/result.json
