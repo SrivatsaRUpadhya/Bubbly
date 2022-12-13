@@ -1,6 +1,6 @@
 function add_data(){
 
-    fetch('./flipkartResult.json', {
+    fetch('../flipkartResult.json', {
         method: 'get',
         dataType: 'jsonp',
         headers: {

@@ -1,0 +1,223 @@
+{
+  "total_result": 24,
+  "query": "macbook",
+  "fetch_from": "https://www.flipkart.com/search?marketplace=FLIPKART&q=macbook",
+  "result": [
+    {
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itmde54f026889ce",
+      "current_price": 88990,
+      "original_price": 99900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn63hn-a/p/itmde54f026889ce"
+    },
+    {
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGND3HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgnd3hn-a/p/itma8a9681af6907",
+      "current_price": 88990,
+      "original_price": 99900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kruyw7k0/computer/v/x/v/na-thin-and-light-laptop-apple-original-imag5jt7u9fzenqb.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgnd3hn-a/p/itma8a9681af6907"
+    },
+    {
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN93HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn93hn-a/p/itmb53580bb51a7e",
+      "current_price": 88990,
+      "original_price": 99900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/f/y/t/apple-original-imafxfyqydgvrkzv.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-256-gb-ssd-mac-os-big-sur-mgn93hn-a/p/itmb53580bb51a7e"
+    },
+    {
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/512 GB SSD/Mac OS Big Sur) MGNE3HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgne3hn-a/p/itm42b58d659c133",
+      "current_price": 104990,
+      "original_price": 117900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/s/2/g/apple-original-imafxfyqykyghjg6.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgne3hn-a/p/itm42b58d659c133"
+    },
+    {
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/512 GB SSD/Mac OS Big Sur) MGN73HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgn73hn-a/p/itm37da92e833fa3",
+      "current_price": 104990,
+      "original_price": 117900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/5/d/e/apple-original-imafxfyqkdfxqjab.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-air-m1-8-gb-512-gb-ssd-mac-os-big-sur-mgn73hn-a/p/itm37da92e833fa3"
+    },
+    {
+      "name": "APPLE MacBook Air M1 - (16 GB/512 GB SSD/Mac OS Big Sur) Z124J006KD",
+      "link": "https://www.flipkart.com/apple-macbook-air-m1-16-gb-512-gb-ssd-mac-os-big-sur-z124j006kd/p/itm57dd82a9cdd4d",
+      "current_price": 124990,
+      "original_price": 132900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kyt0ya80/computer/i/d/p/na-thin-and-light-laptop-apple-original-imagaygvtvf6cx8h.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-macbook-air-m1-16-gb-512-gb-ssd-mac-os-big-sur-z124j006kd/p/itm57dd82a9cdd4d"
+    },
+    {
+      "name": "APPLE MacBook Air M1 - (16 GB/256 GB SSD/Mac OS Big Sur) Z124J001KD",
+      "link": "https://www.flipkart.com/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j001kd/p/itm99fb41e01ea8a",
+      "current_price": 104990,
+      "original_price": 112900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kyt0ya80/computer/b/v/q/na-thin-and-light-laptop-apple-original-imagaygvkp7pjexm.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j001kd/p/itm99fb41e01ea8a"
+    },
+    {
+      "name": "APPLE MacBook Air M1 - (16 GB/256 GB SSD/Mac OS Big Sur) Z124J005KD",
+      "link": "https://www.flipkart.com/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j005kd/p/itm5feb8febbc5d9",
+      "current_price": 104990,
+      "original_price": 112900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kyt0ya80/computer/i/d/p/na-thin-and-light-laptop-apple-original-imagaygvtvf6cx8h.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-macbook-air-m1-16-gb-256-gb-ssd-mac-os-big-sur-z124j005kd/p/itm5feb8febbc5d9"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MKGR3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgr3hn-a/p/itm9c08d68146df6",
+      "current_price": 181990,
+      "original_price": 194900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/z/k/q/mkgr3hn-a-thin-and-light-laptop-apple-original-imag7yzp78bpnzyg.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgr3hn-a/p/itm9c08d68146df6"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MK183HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk183hn-a/p/itm50d993356f048",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk183hn-a/p/itm50d993356f048"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MK1F3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk1f3hn-a/p/itm4ebc9965a16d9",
+      "current_price": 241990,
+      "original_price": 259900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk1f3hn-a/p/itm4ebc9965a16d9"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Max - (32 GB/1 TB SSD/Mac OS Monterey) MK1A3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1a3hn-a/p/itm00aac391057cc",
+      "current_price": 306990,
+      "original_price": 329900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1a3hn-a/p/itm00aac391057cc"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MKGT3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgt3hn-a/p/itm533a202480447",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/z/k/q/mkgr3hn-a-thin-and-light-laptop-apple-original-imag7yzp78bpnzyg.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgt3hn-a/p/itm533a202480447"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MK193HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk193hn-a/p/itmac98e5071f1b4",
+      "current_price": 241990,
+      "original_price": 259900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mk193hn-a/p/itmac98e5071f1b4"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MKGP3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgp3hn-a/p/itmb07cc25112c60",
+      "current_price": 181990,
+      "original_price": 194900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/c/8/u/mkgp3hn-a-thin-and-light-laptop-apple-original-imag7yznc5d2rsuh.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mkgp3hn-a/p/itmb07cc25112c60"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MKGQ3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgq3hn-a/p/itmd3d13e8e4c5f7",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/c/8/u/mkgp3hn-a-thin-and-light-laptop-apple-original-imag7yznc5d2rsuh.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-1-tb-ssd-mac-os-monterey-mkgq3hn-a/p/itmd3d13e8e4c5f7"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Pro - (16 GB/512 GB SSD/Mac OS Monterey) MK1E3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk1e3hn-a/p/itm42e9184917963",
+      "current_price": 222990,
+      "original_price": 239900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-16-gb-512-gb-ssd-mac-os-monterey-mk1e3hn-a/p/itm42e9184917963"
+    },
+    {
+      "name": "APPLE 2021 Macbook Pro M1 Max - (32 GB/1 TB SSD/Mac OS Monterey) MK1H3HN/A",
+      "link": "https://www.flipkart.com/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1h3hn-a/p/itmb02d4fba3c131",
+      "current_price": 306990,
+      "original_price": 329900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/kuyf8nk0/computer/g/z/q/mk1e3hn-a-laptop-apple-original-imag7yzmv57cvg3f.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2021-macbook-pro-m1-max-32-gb-1-tb-ssd-mac-os-monterey-mk1h3hn-a/p/itmb02d4fba3c131"
+    },
+    {
+      "name": "APPLE 2020 Macbook Pro M1 - (8 GB/512 GB SSD/Mac OS Big Sur) MYD92HN/A",
+      "link": "https://www.flipkart.com/apple-2020-macbook-pro-m1-8-gb-512-gb-ssd-mac-os-big-sur-myd92hn-a/p/itmbe44ce71a4225",
+      "current_price": 129990,
+      "original_price": 142900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/khdqnbk0/computer/e/6/n/apple-original-imafxfyq4agsgysn.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2020-macbook-pro-m1-8-gb-512-gb-ssd-mac-os-big-sur-myd92hn-a/p/itmbe44ce71a4225"
+    },
+    {
+      "name": "APPLE 2022 MacBook Pro M2 - (8 GB/512 GB SSD/Mac OS Monterey) MNEQ3HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-pro-m2-8-gb-512-gb-ssd-mac-os-monterey-mneq3hn-a/p/itm4bc8d80e185ea",
+      "current_price": 139990,
+      "original_price": 149900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/g/u/k/macbook-pro-thin-and-light-laptop-apple-original-imagfdewfh9z3pee.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-pro-m2-8-gb-512-gb-ssd-mac-os-monterey-mneq3hn-a/p/itm4bc8d80e185ea"
+    },
+    {
+      "name": "APPLE 2022 MacBook Pro M2 - (8 GB/256 GB SSD/Mac OS Monterey) MNEH3HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mneh3hn-a/p/itmaea892f7dd66e",
+      "current_price": 121990,
+      "original_price": 129900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/r/6/b/macbook-pro-thin-and-light-laptop-apple-original-imagfdeu9rmugapt.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mneh3hn-a/p/itmaea892f7dd66e"
+    },
+    {
+      "name": "APPLE 2022 MacBook AIR M2 - (8 GB/256 GB SSD/Mac OS Monterey) MLY33HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mly33hn-a/p/itm48f8f11263927",
+      "current_price": 112990,
+      "original_price": 119900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/y/j/z/macbook-air-thin-and-light-laptop-apple-original-imagfdeqter4sj2j.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-air-m2-8-gb-256-gb-ssd-mac-os-monterey-mly33hn-a/p/itm48f8f11263927"
+    },
+    {
+      "name": "APPLE 2022 MacBook Pro M2 - (8 GB/256 GB SSD/Mac OS Monterey) MNEP3HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mnep3hn-a/p/itm421ae549343a0",
+      "current_price": 121990,
+      "original_price": 129900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/g/u/k/macbook-pro-thin-and-light-laptop-apple-original-imagfdewfh9z3pee.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mnep3hn-a/p/itm421ae549343a0"
+    },
+    {
+      "name": "APPLE 2022 MacBook AIR M2 - (8 GB/512 GB SSD/Mac OS Monterey) MLY43HN/A",
+      "link": "https://www.flipkart.com/apple-2022-macbook-air-m2-8-gb-512-gb-ssd-mac-os-monterey-mly43hn-a/p/itm14cf121550d1a",
+      "current_price": 139990,
+      "original_price": 149900,
+      "discounted": true,
+      "thumbnail": "https://rukminim1.flixcart.com/image/312/312/l4hcx3k0/computer/y/j/z/macbook-air-thin-and-light-laptop-apple-original-imagfdeqter4sj2j.jpeg?q=70",
+      "query_url": "https://flipkart.dvishal485.workers.dev/product/apple-2022-macbook-air-m2-8-gb-512-gb-ssd-mac-os-monterey-mly43hn-a/p/itm14cf121550d1a"
+    }
+  ]
+}
