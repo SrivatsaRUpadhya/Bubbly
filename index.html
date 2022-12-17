@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>AvsF</title>
 </head>
 <body>
@@ -20,10 +20,8 @@
             </div>
         </nav>
         <div class="search-container">
-            <form action="/submit" method="post">
-                <input type="text" name="search_box" id="search_box">
-                <button name="submit" id = "sumbit">Search</button>
-            </form>
+                <input type="text" name="query_string" id="query_string">
+                <button name="submit" id = "submit">Search</button>
         </div>
     </div>
     <div class="container">
@@ -41,7 +39,7 @@
             <div id = "amazon-results" class="frames iframe-1">
                 <h2 class="iframe-head">Results from Amazon</h2>
                 <ul id="search-results">
-                    <script src="js/query_display.js"></script>
+
                 </ul>
                 <!-- <iframe src="https://www.flipkart.com" class="flipkart-iframe"></iframe> -->
             </div>
@@ -49,14 +47,14 @@
             <div id = "flipkart-results" class="frames iframe-2">
                 <h2 class="iframe-head">Results from Flipkart</h2>
                 <ul id="flipkartSearchResults">
-                    <script src="js/query_display2.js"></script>
+                    <!-- <script src="js/query_display2.js"></script> -->
                 </ul>
                 <!-- <iframe src="https://www.flipkart.com" class="DAsis"></iframe> -->
             </div>
 
         </div>
     </div>
-
+<script src="js/display_products.js"></script>
     <footer>
         <div class="footr-container" style="border-top: 1px solid black;">
             <h2 style="text-align: center;">Footer</h2>

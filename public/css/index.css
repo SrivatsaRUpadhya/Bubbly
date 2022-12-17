@@ -54,12 +54,13 @@ body{
     padding: 5px;
     border-radius: 2px;
 }
-#submit{
+/* #submit{
     border: none;
     padding: 5px;
     border-radius: 2px;
     background-color: wheat;
-}
+    z-index: 1;
+} */
 
 #imageFormat {
     width: 500px;
