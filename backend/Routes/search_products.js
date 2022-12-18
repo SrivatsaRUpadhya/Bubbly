@@ -1,22 +1,54 @@
 const router = require('express').Router();
-const { request } = require('express');
+const axios = require('axios');
+const request = require('request');
 const amazonScraper = require('../../node_modules/amazon-buddy');
 
-router.get('/:qs', (req,res)=>{
+router.get('/:qs', (req, res) => {
 
-    //Search on amazon
-    (async function(){
-        try{
-            console.log(req.params.qs);
-            const amazon_prds = await amazonScraper.products({keyword : req.params.qs, number : "10", country : "IN"})
-            res.json(amazon_prds)
-            console.log(amazon_prds);
-        }catch(err){
-            console.log(err);
+
+    //Search amazon 
+    const get_amazon = new Promise((resolve, reject) => {
+        try {
+            const products = amazonScraper.products({ keyword: req.params.qs, number: "20", country: "IN" })
+            resolve(products)
+        } catch (err) {
+            reject(() => { console.log(err); })
         }
-    })();
+    });
 
-    //Search on flipkart
+    // Search on flipkart
+    const get_flipkart = new Promise(resolve => {
+        request(`https://flipkart.dvishal485.workers.dev/search/${req.params.qs}`, (error, response, body) => {
+
+            // Printing the error if occurred
+            if (error) {
+                console.log(error);
+            }
+            else {
+                console.log(response.statusCode);
+                resolve(body)
+            }
+
+        })
+    });
+
+
+    (async function () {
+        await Promise.all([get_amazon, get_flipkart])
+            .then((response) => {
+                const products = {
+                    amazon: response[0],
+                    flipkart: JSON.parse(response[1])
+                }
+                res.json(products)
+                // console.log(products); 
+            })
+        // var products = {
+        //     amazon_prds : a_prds,
+        //     flipkart_prds : f_prds
+        // }
+        // console.log(products);
+    })();
 });
 
 
