@@ -4,31 +4,24 @@ function log_click() {
     const q = document.getElementById("query_string").value;      //This is the query string
     console.log(q);     //print out the query string fror testing
 
-    // Record the start time
-    const startTime = Date.now();
-
     //Send a get request to query the data
-  fetch(`/search/${q}`, {
-    method: "GET",
-    headers: {
-      "Accept": "*/*",
-      "Content-Type": "application/json",
-    },
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      //If there are no errors display the data
+    axios.request({
+        url: `/search/${q}`,
+        method: "GET",
+        headers: {
+            "Accept": "*/*",
+            "Content-Type": "application/json",
+        },
+    })
+        .then((response) => {
+            //If there are no errors display the data
 
-      console.log(data);      //Log the received data for testing
+            console.log(response);      //Log the received data for testing
 
-      // Calculate the elapsed time
-      var elapsedTime = Date.now() - startTime;
-      console.log(`Elapsed time: ${elapsedTime}ms`);
-
-      //Display data from amazon on the page
+            //Display data from amazon on the page
 
             var main_list = document.getElementById("search-results");
-            (data.amazon.result).forEach(element => {
+            (response.data.amazon.result).forEach(element => {
                 // Create a new div element
                 var prd_div = document.createElement('div');
                 // Set the id attribute of the div to "productDiv"
@@ -60,7 +53,7 @@ function log_click() {
             //Display products from flipkart
 
             main_list = document.getElementById("flipkartSearchResults");
-            (data.flipkart.result).forEach(element => {
+            (response.data.flipkart.result).forEach(element => {
                 // Create a new div element
                 prd_div = document.createElement('div');
                 // Set the id attribute of the div to "productDiv"
@@ -88,13 +81,7 @@ function log_click() {
 
                 // Append the new div element to the main_list
                 main_list.appendChild(prd_div);
-
-                // Calculate the elapsed time
-                elapsedTime = Date.now() - startTime;
-                console.log(`Elapsed time, flipkart: ${elapsedTime}ms`);
-
             });
-
         })
         .catch((err) => {
             //Log the error if any
