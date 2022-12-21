@@ -1,7 +1,0 @@
-node_modules/
-*.json
-!package.json
-!public/*.json
-public/amazonResult.json
-public/flipkartResult.json
-public/result.json
