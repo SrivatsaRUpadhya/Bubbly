@@ -9,7 +9,7 @@ const getFlipkart = async function (req, res, next) {
 
     var options = {
         method: 'GET',
-        url: 'https://flipkart.dvishal485.workers.dev/search/',
+        url: `https://flipkart.dvishal485.workers.dev/search/${query_string}`,
         headers: { "Accept-Encoding": "gzip,deflate,compress" }
     };
 
