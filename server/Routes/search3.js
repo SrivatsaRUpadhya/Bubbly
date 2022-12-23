@@ -7,6 +7,9 @@ router.get('/:qs', (req, res) => {
 
     console.log(req.params.qs);
     const get_amazon = () => {
+
+        console.time("get_amazon");  // Start the timer
+
         return new Promise(async (resolve, reject) => {
             try {
                 const products = await amazonScraper.products({ keyword: req.params.qs, number: "20", country: "IN" })
@@ -24,6 +27,9 @@ router.get('/:qs', (req, res) => {
                 //             console.log(err);
                 //         }
                 //     })
+
+                console.timeEnd("get_amazon");  // End the timer
+
             } catch (err) {
                 reject(() => { console.log(err) })
             }
@@ -31,6 +37,7 @@ router.get('/:qs', (req, res) => {
     };
 
     const get_flipkart = () => {
+        console.time("get_flipkart");  // Start the timer
         return new Promise((resolve, reject) => {
             var f_prds_arr = [];
             var axios = require("axios").default;
@@ -62,18 +69,24 @@ router.get('/:qs', (req, res) => {
                 Promise.all(f_prd_details_promise)
                     .then((values) => {
                         values.forEach(prd => {
-                            console.log(prd);
+                            // console.log(prd);
                             // prds_arr.push(prd)
                         })
-                        resolve(f_prds_arr)
+                        resolve(f_prds_arr);
+                        console.timeEnd("get_flipkart");  // End the timer
                     }).catch((err) => {
                         console.log(err);
                     })
             }).catch(function (error) {
                 console.error(error);
             });
+
+            
+
         })
     }
+
+    console.time("total -- amazon + flipkart");
 
     Promise.all([get_amazon(), get_flipkart()])
         .then(result => {
@@ -81,8 +94,9 @@ router.get('/:qs', (req, res) => {
                 amazon: result[0],
                 flipkart: result[1]
             }
-            console.log(resp_data);
+            // console.log(resp_data);
             res.json(resp_data)
+            console.timeEnd("total -- amazon + flipkart"); 
         }).catch(err => {
             console.log(err);
         })
