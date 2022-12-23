@@ -4,30 +4,39 @@ const Team = () => {
 
     const team = [{
         "name": "Aluin",
+        "image":"team/14.png",
         "github": "sfgate.com/amet/justo/morbi/ut/odio/cras/mi.xml"
     }, {
         "name": "Karel",
+        "image":"team/14.png",
         "github": "japanpost.jp/nulla/tellus/in.jsp"
     }, {
         "name": "Nat",
+        "image":"team/14.png",
         "github": "state.gov/ipsum/integer.html"
     }, {
         "name": "Lambert",
+        "image":"team/14.png",
         "github": "army.mil/lorem/id/ligula/suspendisse.jpg"
     }, {
         "name": "Cass",
+        "image":"team/14.png",
         "github": "samsung.com/integer/ac/neque/duis/bibendum/morbi.png"
     }, {
         "name": "Leonerd",
+        "image":"team/14.png",
         "github": "vinaora.com/a/pede/posuere.jsp"
     }, {
         "name": "Burr",
+        "image":"team/14.png",
         "github": "xing.com/risus/dapibus.png"
     }, {
         "name": "Augy",
+        "image":"team/14.png",
         "github": "vimeo.com/tempus/sit/amet/sem/fusce/consequat/nulla.json"
     }, {
         "name": "Asa",
+        "image":"team/14.png",
         "github": "ed.gov/sapien/iaculis.xml"
     }]
 
@@ -46,10 +55,10 @@ const Team = () => {
                         {team.map((member, key) => {
                             return (
 
-                                <div key={key} className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-gray-200 rounded-xl justify-self-center  ">
-                                    <img className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+                                <div key={key} className="flex flex-col items-center p-8 duration-200 transform cursor-pointer group hover:bg-gray-200 rounded-xl justify-self-center hover:-translate-y-2 hover:scale-105   transition-all ease-in-out  ">
+                                    <img className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300 group-hover:ring-gray-800" src={member.image} alt="" />
 
-                                    <h1 className="mt-4 text-2xl font-semibold capitalize text-white group-hover:text-gray-700 ">arthur melo</h1>
+                                    <h1 className="mt-4 text-2xl font-semibold capitalize text-white group-hover:text-gray-700 ">{member.name}</h1>
 
                                     <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-800">design director</p>
 
