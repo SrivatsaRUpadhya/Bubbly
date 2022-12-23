@@ -3,35 +3,16 @@ const request = require('request');
 const amazonScraper = require('amazon-buddy');
 
 router.get('/:qs', (req, res) => {
-
     console.log(req.params.qs);
+    
     const get_amazon = () => {
 
         console.time("get_amazon");  // Start the timer
 
         return new Promise(async (resolve, reject) => {
-            try {
-                const products = await amazonScraper.products({ keyword: req.params.qs, number: "20", country: "IN" })
-                resolve(products)
-                // console.log("get_amazon resolved");
-                // var a_query_arr = products.result
-                // var a_prds_arr = []
-                // var a_prd_details_promise = a_query_arr.map(prd => {
-                //     return new Promise(async (resolve) => {
-                //         try{
-                //             const det_prd = await amazonScraper.asin({ asin : prd.asin }); 
-                //             resolve(det_prd)
-                //         }
-                //         catch(err){
-                //             console.log(err);
-                //         }
-                //     })
-
-                console.timeEnd("get_amazon");  // End the timer
-
-            } catch (err) {
-                reject(() => { console.log(err) })
-            }
+            const products = await amazonScraper.products({ keyword: req.params.qs, number: "20", country: "IN" })
+            resolve(products)
+            console.timeEnd("get_amazon");  // End the timer
         })
     };
 
