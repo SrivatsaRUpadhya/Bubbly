@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import ProductPage from "./components/ProductPage";
+import ProductPage from "./pages/ProductPage";
 import Home from "./pages/Home";
 
 function App() {

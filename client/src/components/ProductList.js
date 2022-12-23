@@ -1,5 +1,8 @@
 import React from 'react'
+import { useEffect } from 'react'
 import ProductCards from './ProductCards'
+import axios from "axios";
+
 
 const ProductList = () => {
 
@@ -157,19 +160,19 @@ const ProductList = () => {
         }
     ]
 
-
+ 
     return (
         <div className='bg-gray-200 pt-10 '>
             <p className="text-xl text-center text-gray-500">
                 Search and Choose your Products
             </p>
             <div className='w-fit mx-auto mt-5 ' >
-                <input type="text" class="w-fit mx-auto py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Search" />
+                <input type="text" className="w-fit mx-auto py-2 pl-10 pr-4 text-gray-700 bg-white border rounded-lg focus:border-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Search" />
                 <button className=" px-6 py-2 mt-2 ml-6 text-white bg-[#172439] rounded-lg focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"> Search </button>
             </div>
-            <div className="flex  justify-evenly">
+            <div className="flex  justify-evenly  sm:flex-col lg:flex-row flex-wrap">
 
-                <div className='w-5/12 ' >
+                <div className=' w-full lg:w-5/12  ' >
 
                     <h1 className="mt-4 text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl ">Amazon products</h1>
                     <div className='h-16 ' />
@@ -187,7 +190,7 @@ const ProductList = () => {
 
                 </div>
 
-                <div className='w-5/12' >
+                <div className=' w-full lg:w-5/12 ' >
 
                     <h1 className="mt-4 text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl ">Flipkart products</h1>
                     <div className='h-16' />
