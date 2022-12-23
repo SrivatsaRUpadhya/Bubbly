@@ -1,19 +1,21 @@
-import Header from './Header'; //including Header.js
-import Footer from './Footer'; //including Footer.js
-import Home from './Home';     //including Home.js
-function App() {
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ProductPage from "./components/ProductPage";
+import Home from "./pages/Home";
 
-  //rendering the files
+function App() {
   return (
-    <div className="App">
-      
-       
-          <Header></Header>
-           <Home></Home>
-          <Footer></Footer>
-        
-     
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/:page" element={<ProductPage />} />
+
+      </Routes>
+      <Footer/>
+
+    </>
   );
 }
 
