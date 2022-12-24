@@ -2,32 +2,34 @@ import React from 'react'
 import { useEffect } from 'react'
 import ProductCards from './ProductCards'
 import axios from "axios";
+import ReactDom from 'react-dom'
 // import dotenv from "dotenv"
 // dotenv.config()
-
-const products = [];
 
 
 const ProductList = () => {
     function get_data() {
         const query_string = document.getElementById("search_box").value
 
-        var options = {
-            method: 'GET',
-            url: `http://localhost:8000/search/${query_string}`,
-            withCredentials: false,
-            headers: { Accept: '*/*', "Access-Control-Allow-Origin" : "http://localhost:8000/motorola"},
-            proxy: {
-                host: 'localhost',
-                port: 8000
-              }
-        };
-
-        axios.request(options).then(function (response) {
-            console.log(response.data);
-        }).catch(function (error) {
-            console.error(error);
-        });
+        fetch(`http://localhost:8000/search/${query_string}`, {
+            mode: 'cors',
+            headers: {
+              'Access-Control-Allow-Origin':'*'
+            }
+          })
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                const flipkart_container = document.getElementById('flipkart_container');
+                data.flipkart.map(element => {
+                    ReactDom.render(<ProductCards 
+                        title = {element.name} 
+                        img_url = "https://www.flipkart.com/samsung-crystal-4k-neo-series-108-cm-43-inch-ultra-hd-4k-led-smart-tizen-tv-black-2022-model/p/itma076c4dd16aa4"
+                        price = {element.current_price}
+                        link = {element.share_url}
+                        />, flipkart_container);
+                })
+            })
         console.log("click");
     }
 
@@ -58,7 +60,7 @@ const ProductList = () => {
                     <h1 className="mt-4 text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl ">Flipkart products</h1>
                     <div className='h-16' />
 
-                    <div className="grid grid-cols-2 gap-7 overflow-y-scroll max-h-screen  ">
+                    <div id='flipkart_container' className="grid grid-cols-2 gap-7 overflow-y-scroll max-h-screen  ">
                         {/* {products.map((product, key) => {
                             return (
                                 <div key={key} className='min-w-fit' >
@@ -66,7 +68,9 @@ const ProductList = () => {
                                 </div>
                             )
                         })
-                        } */}
+                        } */
+                        
+                        }
                     </div>
 
                 </div>

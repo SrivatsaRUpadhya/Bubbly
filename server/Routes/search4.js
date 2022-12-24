@@ -6,10 +6,7 @@ router.get('/:qs', (req, res) => {
 
     console.log(req.params.qs);
     query_string = req.params.qs;
-    const get_amazon = () => {
-         // Start the timer
-
-        return new Promise(async (resolve, reject) => {
+    const get_amazon =  new Promise(async (resolve, reject) => {
             try {
                 
                 const products = await amazonScraper.products({ keyword: query_string, number:15, country:"IN" });
@@ -20,7 +17,7 @@ router.get('/:qs', (req, res) => {
                     amazon_prds_array.push(new Promise(async (resolve) => {
                         try {
                         const detailed_prd = await amazonScraper.asin({"asin":element.asin, "country":"IN"});
-                            resolve(detailed_prd.result);
+                            resolve(detailed_prd.result[0]);
                         } catch (error) {
                             console.log(error);
                         }
@@ -38,15 +35,11 @@ router.get('/:qs', (req, res) => {
                 reject(() => { console.log(err) })
             }
         })
-    }
 
-    const get_flipkart = () => {
-
-        console.time("get_flipkart");
-        console.time("get_flipkart_initial");  // Start the timer
-        
-        return new Promise((resolve, reject) => 
-        {
+    const get_flipkart =  new Promise((resolve, reject) => 
+        {   
+            console.time("get_flipkart");
+        console.time("get_flipkart_initial"); 
             request(`https://flipkart-scraper-api.flipkartscraper.workers.dev/search/${query_string}`, (error, response, body) => 
             {
                 if (!error && response.statusCode == 200) 
@@ -100,11 +93,10 @@ router.get('/:qs', (req, res) => {
             })
 
         })
-    }
 
     console.time("total -- amazon + flipkart");
 
-    Promise.all([get_flipkart(),get_amazon()])
+    Promise.all([get_flipkart,get_amazon])
         .then(result => {
             const resp_data = {
                 flipkart: result[0],

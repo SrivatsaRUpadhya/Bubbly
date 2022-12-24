@@ -4,10 +4,10 @@ const Team = () => {
 
     const team = [
         {
-            "name": "Srivatsa",
-            "image": "team/14.png",
+            "name": "Srivatsa R Upadhya",
+            "image": "team/srivatsa.jpg ",
             "post":"Team lead/Backend",
-            "github": "sfgate.com/amet/justo/morbi/ut/odio/cras/mi.xml"
+            "github": "https://github.com/SrivatsaRUpadhya"
         },
         {
             "name": "Vaishnavi P Shet",
