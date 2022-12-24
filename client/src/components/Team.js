@@ -4,49 +4,52 @@ const Team = () => {
 
     const team = [
         {
-            "name": "Aluin",
+            "name": "Srivatsa",
             "image": "team/14.png",
+            "post":"Team lead/Backend",
             "github": "sfgate.com/amet/justo/morbi/ut/odio/cras/mi.xml"
         },
         {
-            "name": "Karel",
-            "image": "team/14.png",
-            "github": "japanpost.jp/nulla/tellus/in.jsp"
+            "name": "Vaishnavi P Shet",
+            "image": "team/vaish.jpg",
+            "post":"Frontend",
+            "github": "https://github.com/codingassistance"
         },
         {
-            "name": "Nat",
-            "image": "team/14.png",
-            "github": "state.gov/ipsum/integer.html"
+            "name": "Shreshta M S",
+            "image": "team/shresta.jpg",
+            "post":"Frontend",
+            "github": "https://github.com/shreshta21"
         },
         {
-            "name": "Lambert",
+            "name": "Ayush Ranjan",
             "image": "team/14.png",
-            "github": "army.mil/lorem/id/ligula/suspendisse.jpg"
+            "post":"Frontend",
+            "github": "https://github.com/Ayushranjan11"
         },
         {
-            "name": "Cass",
-            "image": "team/14.png",
-            "github": "samsung.com/integer/ac/neque/duis/bibendum/morbi.png"
+            "name": "Varun S Amin",
+            "image": "team/varun.jpg",
+            "post":"Frontend",
+            "github": "https://github.com/varun-s-amin"
         },
         {
-            "name": "Leonerd",
+            "name": "Prathwik Kushal Kumar",
             "image": "team/14.png",
+            "post":"Backend",
             "github": "vinaora.com/a/pede/posuere.jsp"
         },
         {
-            "name": "Burr",
+            "name": "Gagan G Nayak",
             "image": "team/14.png",
+            "post":"Backend",
             "github": "xing.com/risus/dapibus.png"
         },
         {
-            "name": "Augy",
+            "name": "Kartik",
             "image": "team/14.png",
+            "post":"Backend",
             "github": "vimeo.com/tempus/sit/amet/sem/fusce/consequat/nulla.json"
-        },
-        {
-            "name": "Asa",
-            "image": "team/14.png",
-            "github": "ed.gov/sapien/iaculis.xml"
         }
     ]
 
@@ -70,11 +73,11 @@ const Team = () => {
 
                                     <div className="mt-4 text-2xl font-semibold capitalize text-white group-hover:text-gray-700 ">{member.name}</div>
 
-                                    <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-800">design director</p>
+                                    <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-800">{member.post}</p>
 
                                     <div className="flex mt-3 -mx-2">
 
-                                        <a href="#" className="mx-2 transition-all duration-150 ease-in-out  text-gray-300 hover:scale-150 group-hover:text-gray-900" aria-label="Github">
+                                        <a href={member.github} className="mx-2 transition-all duration-150 ease-in-out  text-gray-300 hover:scale-150 group-hover:text-gray-900" aria-label="Github">
                                             <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
                                                 <path
