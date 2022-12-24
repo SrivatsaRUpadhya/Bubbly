@@ -1,8 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const app = express();
+const cors = require('cors');
 const port = 8000;
 
+app.use(cors())
 const searchRoute = require('./Routes/search4')
 app.get('/', (req,res)=>{
     res.send("Live");
