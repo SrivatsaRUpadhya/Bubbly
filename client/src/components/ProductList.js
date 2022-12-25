@@ -11,7 +11,7 @@ const ProductList = () => {
     function get_data() {
         const query_string = document.getElementById("search_box").value
 
-        fetch(`http://localhost:8000/search/${query_string}`, {
+        fetch(`https://bubbly-fnfu.onrender.com/${query_string}`, {
             mode: 'cors',
             headers: {
               'Access-Control-Allow-Origin':'*'
