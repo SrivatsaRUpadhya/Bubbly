@@ -1,98 +1,106 @@
 const router = require('express').Router();
-const axios = require('axios');
 const request = require('request');
 const amazonScraper = require('amazon-buddy');
 
 router.get('/:qs', (req, res) => {
 
     console.log(req.params.qs);
-    const get_amazon = () => {
-
-        console.time("get_amazon");  // Start the timer
-
-        return new Promise(async (resolve, reject) => {
+    query_string = req.params.qs;
+    const get_amazon =  new Promise(async (resolve, reject) => {
             try {
-                const products = await amazonScraper.products({ keyword: req.params.qs, number: "20", country: "IN" })
-                resolve(products)
-                // console.log("get_amazon resolved");
-                // var a_query_arr = products.result
-                // var a_prds_arr = []
-                // var a_prd_details_promise = a_query_arr.map(prd => {
-                //     return new Promise(async (resolve) => {
-                //         try{
-                //             const det_prd = await amazonScraper.asin({ asin : prd.asin }); 
-                //             resolve(det_prd)
-                //         }
-                //         catch(err){
-                //             console.log(err);
-                //         }
-                //     })
+                
+                const products = await amazonScraper.products({ keyword: query_string, number:15, country:"IN" });
+                // resolve(products);
+                var amazon_prds_array = [];
 
-                console.timeEnd("get_amazon");  // End the timer
-
+                products.result.forEach(element => {
+                    amazon_prds_array.push(new Promise(async (resolve) => {
+                        try {
+                        const detailed_prd = await amazonScraper.asin({"asin":element.asin, "country":"IN"});
+                            resolve(detailed_prd.result[0]);
+                        } catch (error) {
+                            console.log(error);
+                        }
+                    })
+                    )
+                });
+                
+                Promise.all(amazon_prds_array)
+                .then((values)=>{
+                    resolve(values);
+                }).catch((error)=>{
+                    console.log(error);
+                })
             } catch (err) {
                 reject(() => { console.log(err) })
             }
         })
-    };
 
-    const get_flipkart = () => {
-        console.time("get_flipkart");  // Start the timer
-        return new Promise((resolve, reject) => {
-            var f_prds_arr = [];
-            var axios = require("axios").default;
+    const get_flipkart =  new Promise((resolve, reject) => 
+        {   
+            console.time("get_flipkart");
+        console.time("get_flipkart_initial"); 
+            request(`https://flipkart-scraper-api.flipkartscraper.workers.dev/search/${query_string}`, (error, response, body) => 
+            {
+                if (!error && response.statusCode == 200) 
+                {
+                    // resolve(JSON.parse(body));
 
-            var options = {
-                method: 'GET',
-                url: `https://flipkart.dvishal485.workers.dev/search/${req.params.qs}`,
-                headers: { "Accept-Encoding": "gzip,deflate,compress" }
-            };
+                    console.timeEnd("get_flipkart_initial"); 
+                    console.time("get_flipkart_products"); 
 
-            axios.request(options).then(function (response) {
-                var f_query_arr = response.data.result
-                // console.log(query_arr);
-                const f_prd_details_promise = f_query_arr.map(element => {
-                    return new Promise((resolve) => {
-                        request(element.query_url, (error, response, body) => {
-                            if (error) {
-                                console.log(error);
-                            }
-                            else {
-                                // console.log(body);
-                                f_prds_arr.push(JSON.parse(body))
-                                resolve(f_prds_arr)
-                            }
-                        })
+                    const productRequests = [];
+                    const flipkartData = JSON.parse(body);
+
+                    // for (i in flipkartData.result) 
+                    for (var i = 0; i < flipkartData.result.length; i++)
+                    {
+                        productRequests.push(new Promise((resolve, reject) => 
+                        {
+                            request(flipkartData.result[i].query_url, (error1, response1, body1) => 
+                            {
+                                if (!error1 && response1.statusCode == 200) {
+                                    // console.log(JSON.parse(body1));
+                                    resolve(JSON.parse(body1));
+                                } 
+                                else 
+                                {
+                                    reject(error1);
+                                }
+                            });
+
+                        }));
+                    }
+                      
+                    Promise.all(productRequests)
+                    .then(results => 
+                    {
+                        resolve(results);
+                        console.timeEnd("get_flipkart_products"); 
+                        console.timeEnd("get_flipkart");
                     })
-                })
+                    .catch(error => 
+                    {
+                        console.error("error while getting flipkart products", error);
+                    });
 
-                Promise.all(f_prd_details_promise)
-                    .then((values) => {
-                        values.forEach(prd => {
-                            // console.log(prd);
-                            // prds_arr.push(prd)
-                        })
-                        resolve(f_prds_arr);
-                        console.timeEnd("get_flipkart");  // End the timer
-                    }).catch((err) => {
-                        console.log(err);
-                    })
-            }).catch(function (error) {
-                console.error(error);
-            });
-
-            
+                } 
+                else 
+                {
+                    console.log("Error during Flipkart api request :", error);
+                    reject(error);
+                }
+            })
 
         })
-    }
 
     console.time("total -- amazon + flipkart");
 
-    Promise.all([get_amazon(), get_flipkart()])
+    Promise.all([get_flipkart,get_amazon])
         .then(result => {
             const resp_data = {
-                amazon: result[0],
-                flipkart: result[1]
+                flipkart: result[0],
+                amazon: result[1]
             }
             // console.log(resp_data);
             res.json(resp_data)
