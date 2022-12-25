@@ -10,7 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:page" element={<ProductPage />} />
+        <Route path="/product/:asin" element={<ProductPage />} />
+        <Route path="/product/flipkart" element={<flipkartProductPage />} />
 
       </Routes>
       <Footer/>
