@@ -13,7 +13,7 @@ const ProductPage = () => {
     useEffect(() => {
         if (effectRan.current == false) {
             console.log("Running once");
-            fetch(`http://localhost:8000/product/${params.asin}`, {
+            fetch(`https://bubbly-fnfu.onrender.com/${params.asin}`, {
                 mode: 'cors',
                 headers: {
                     'Access-Control-Allow-Origin': '*'
