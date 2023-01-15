@@ -32,7 +32,7 @@ const ProductList = () => {
 
     const fetchData = async () => {
         setLoading(true);
-        await fetch(`http://localhost:8000/search/${search}/${page}`, {
+        await fetch(`https://bubbly-fnfu.onrender.com/search/${search}/${page}`, {
             mode: 'cors',
             headers: {
                 'Access-Control-Allow-Origin': '*'
