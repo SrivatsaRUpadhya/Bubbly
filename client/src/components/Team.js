@@ -23,7 +23,7 @@ const Team = () => {
         },
         {
             "name": "Ayush Ranjan",
-            "image": "team/14.png",
+            "image": "team/ayush.jpg",
             "post":"Frontend",
             "github": "https://github.com/Ayushranjan11"
         },
@@ -37,19 +37,19 @@ const Team = () => {
             "name": "Prathwik Kushal Kumar",
             "image": "team/14.png",
             "post":"Backend",
-            "github": "vinaora.com/a/pede/posuere.jsp"
+            "github": "https://github.com/prathwik0"
         },
         {
             "name": "Gagan G Nayak",
-            "image": "team/14.png",
+            "image": "team/gagan.jpg",
             "post":"Backend",
-            "github": "xing.com/risus/dapibus.png"
+            "github": "https://github.com/GaganNayak"
         },
         {
             "name": "Kartik",
             "image": "team/14.png",
             "post":"Backend",
-            "github": "vimeo.com/tempus/sit/amet/sem/fusce/consequat/nulla.json"
+            "github": "https://github.com/KartikDhar09"
         }
     ]
 
