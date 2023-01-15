@@ -6,7 +6,7 @@ import Team from '../components/Team'
 const Home = () => {
     return (
         <>
-            <Hero />
+            {/* <Hero /> */}
             <ProductList />
             <Team />
         </>
