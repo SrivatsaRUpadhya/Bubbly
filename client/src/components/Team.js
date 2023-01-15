@@ -35,7 +35,7 @@ const Team = () => {
         },
         {
             "name": "Prathwik Kushal Kumar",
-            "image": "team/14.png",
+            "image": "team/prathwik.png",
             "post":"Backend",
             "github": "https://github.com/prathwik0"
         },
@@ -47,7 +47,7 @@ const Team = () => {
         },
         {
             "name": "Kartik",
-            "image": "team/14.png",
+            "image": "team/default.png",
             "post":"Backend",
             "github": "https://github.com/KartikDhar09"
         }
