@@ -7,27 +7,11 @@ const Footer = () => {
             
             <footer className="bg-gray-900 sticky ">
                 <div className="container px-6 py-8 mx-auto">
-                    <div className="text-center">
-                        <a href="#" className="text-3xl font-bold text-white hover:text-gray-300">Brand</a>
-
-                        <div className="flex flex-wrap justify-center mt-5 -mx-4">
-                            <a href="#" className="mx-4 transition-colors duration-300  text-gray-300 hover:text-blue-400" aria-label="Reddit"> Home </a>
-
-                            <a href="#" className="mx-4 transition-colors duration-300  text-gray-300 hover:text-blue-400" aria-label="Reddit"> About </a>
-
-                            <a href="#" className="mx-4 transition-colors duration-300  text-gray-300 hover:text-blue-400" aria-label="Reddit"> Teams </a>
-
-                            <a href="#" className="mx-4 transition-colors duration-300  text-gray-300 hover:text-blue-400" aria-label="Reddit"> Privacy </a>
-
-                            <a href="#" className="mx-4 transition-colors duration-300  text-gray-300 hover:text-blue-400" aria-label="Reddit"> Cookies </a>
-                        </div>
-
-                    </div>
 
                     <hr className="my-6  md:my-10 border-gray-700" />
 
                     <div className="flex flex-col items-center sm:flex-row sm:justify-between">
-                        <p className="text-gray-300">© Copyright 2021. All Rights Reserved.</p>
+                        <p className="text-gray-300">© Copyright 2022. All Rights Reserved.</p>
 
                         <div className="flex -mx-2">
                             <a href="#" className="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400" aria-label="Reddit">
