@@ -17,7 +17,7 @@ const FlipkartProductPage = () => {
     useEffect(() => {
         if (effectRan.current == false) {
             console.log("Running once");
-            fetch(`http://localhost:8000/product?url=${qs}`, {
+            fetch(`https://bubbly-fnfu.onrender.com/product?url=${qs}`, {
                 mode: 'cors',
                 headers: {
                     'Access-Control-Allow-Origin': '*'
