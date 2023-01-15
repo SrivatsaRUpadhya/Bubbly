@@ -15,7 +15,7 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu bg-slate-50 text-black dropdown-content mt-3 p-2 shadow rounded-box">
-                            <li className='w-full bg-blue-500'><a href='/' className='bg-red-500'>Homepage</a></li>
+                            <li className='w-full'><a href='/'>Homepage</a></li>
                             <li><a href=''>Contact Us</a></li>
                         </ul>
                     </div>
