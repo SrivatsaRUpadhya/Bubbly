@@ -1,47 +1,28 @@
-import React, { useState } from 'react';
-import { FiMenu, FiX } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-	const [open, setOpen] = useState(false);
+    return (
+        <>
+            <div className="navbar mt-0 bg-gray-900 mx-auto text-gray-200 px-20 sm:px-24">
+            <div className="navbar-start">
+                <a href='/' className="btn btn-ghost normal-case text-xl">Bubbly</a>
+            </div>
 
-	const handleClick = () => {
-		setOpen(!open);
-	};
+                <div className="navbar-end">
+                    <div className="dropdown z-30">
+                        <label tabIndex={0} className="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                        </label>
+                        <ul tabIndex={0} className="menu bg-slate-50 text-black dropdown-content mt-3 p-2 shadow rounded-box">
+                            <li className='w-full bg-blue-500'><a href='/' className='bg-red-500'>Homepage</a></li>
+                            <li><a href=''>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
 
-	const closeMenu = () => {
-		setOpen(false);
-	};
-
-	return (
-		<nav className="navbar">
-			<Link to="/" className="nav-logo">
-				Bubbly
-			</Link>
-			<div onClick={handleClick} className="nav-icon">
-				{open ? <FiX /> : <FiMenu />}
-			</div>
-			<ul className={open ? 'nav-links active' : 'nav-links'}>
-				<li className="nav-item">
-					<Link to="/" className="nav-link" onClick={closeMenu}>
-						Home
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/about" className="nav-link" onClick={closeMenu}>
-						About
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/contact" className="nav-link" onClick={closeMenu}>
-						Contact
-					</Link>
-				</li>
-				
-			</ul>
-		</nav>
-	);
-};
-
-export default Navbar;
+export default Navbar
