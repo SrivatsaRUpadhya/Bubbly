@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <div className="navbar mt-0 bg-gray-900 mx-auto text-gray-200 px-20 sm:px-24">
             <div className="navbar-start">
-                <a href='/' className="btn btn-ghost normal-case text-xl">Bubbly</a>
+                <a href='/' className="btn btn-ghost normal-case text-xl">AvsF</a>
             </div>
 
                 <div className="navbar-end">
