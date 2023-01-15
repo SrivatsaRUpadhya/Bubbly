@@ -1,8 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import ProductPage from "./pages/ProductPage";
+import AmazonProductPage from "./pages/AmazonProductPage";
 import Home from "./pages/Home";
+import FlipkartProductPage from "./pages/FlipkartProductPage";
+
 
 function App() {
   return (
@@ -10,9 +12,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product/:asin" element={<ProductPage />} />
-        <Route path="/product/flipkart" element={<flipkartProductPage />} />
-
+        <Route path="/product/:asin" element={<AmazonProductPage />} />
+        <Route path="/product/flipkart" element={<FlipkartProductPage />} />
       </Routes>
       <Footer/>
 
