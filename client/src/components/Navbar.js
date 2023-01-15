@@ -16,7 +16,7 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex={0} className="menu bg-slate-50 text-black dropdown-content mt-3 p-2 shadow rounded-box">
                             <li className='w-full'><a href='/'>Homepage</a></li>
-                            <li><a href=''>Contact Us</a></li>
+                            <li><a href='https://forms.gle/EiGtsusf5K1Qqgr37'>Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
